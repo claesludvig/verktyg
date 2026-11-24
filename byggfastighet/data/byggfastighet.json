@@ -1,0 +1,783 @@
+{
+  "genererad": "2026-11-23T05:35:25+00:00",
+  "datum": "2026-11-23",
+  "data_t_o_m": "2026-11-22",
+  "vecka": 48,
+  "ar": {
+    "0y": "2026",
+    "+1y": "2027"
+  },
+  "perioder": [
+    "1d",
+    "2d",
+    "3d",
+    "1v",
+    "2v",
+    "1m",
+    "3m"
+  ],
+  "tabell": [
+    {
+      "grupp": "Index",
+      "rader": [
+        {
+          "namn": "Byggindex",
+          "enhet": "pct",
+          "datum": "2026-11-20",
+          "senast": 117.2,
+          "forandring": {
+            "1d": -2.94,
+            "2d": -3.01,
+            "3d": -3.94,
+            "1v": -4.57,
+            "2v": 0.66,
+            "1m": 4.11,
+            "3m": 6.25
+          }
+        },
+        {
+          "namn": "Fastighetsindex",
+          "enhet": "pct",
+          "datum": "2026-11-20",
+          "senast": 95.3,
+          "forandring": {
+            "1d": -0.79,
+            "2d": -2.48,
+            "3d": -2.41,
+            "1v": -3.42,
+            "2v": -3.24,
+            "1m": 5.92,
+            "3m": -3.75
+          }
+        },
+        {
+          "namn": "OMXS30",
+          "enhet": "pct",
+          "datum": "2026-11-20",
+          "senast": 3175.06,
+          "forandring": {
+            "1d": -2.51,
+            "2d": -2.49,
+            "3d": -3.42,
+            "1v": -5.42,
+            "2v": -2.84,
+            "1m": -2.13,
+            "3m": -3.56
+          }
+        }
+      ]
+    },
+    {
+      "grupp": "Bygg",
+      "rader": [
+        {
+          "namn": "Skanska",
+          "ticker": "SKA-B.ST",
+          "enhet": "pct",
+          "datum": "2026-11-20",
+          "senast": 293.8,
+          "borsvarde_mdkr": 121.6,
+          "forandring": {
+            "1d": -2.94,
+            "2d": -2.84,
+            "3d": -3.48,
+            "1v": -3.99,
+            "2v": 1.84,
+            "1m": 8.13,
+            "3m": 8.41
+          }
+        },
+        {
+          "namn": "NCC",
+          "ticker": "NCC-B.ST",
+          "enhet": "pct",
+          "datum": "2026-11-20",
+          "senast": 184.2,
+          "borsvarde_mdkr": 18.1,
+          "forandring": {
+            "1d": -3.21,
+            "2d": -4.46,
+            "3d": -5.25,
+            "1v": -4.01,
+            "2v": -1.39,
+            "1m": 3.95,
+            "3m": 5.08
+          }
+        },
+        {
+          "namn": "Peab",
+          "ticker": "PEAB-B.ST",
+          "enhet": "pct",
+          "datum": "2026-11-20",
+          "senast": 96.35,
+          "borsvarde_mdkr": 26.9,
+          "forandring": {
+            "1d": -2.63,
+            "2d": -2.87,
+            "3d": -2.48,
+            "1v": -2.73,
+            "2v": 1.85,
+            "1m": 1.8,
+            "3m": 0.89
+          }
+        },
+        {
+          "namn": "Bravida",
+          "ticker": "BRAV.ST",
+          "enhet": "pct",
+          "datum": "2026-11-20",
+          "senast": 141.0,
+          "borsvarde_mdkr": 28.6,
+          "forandring": {
+            "1d": -3.29,
+            "2d": -2.76,
+            "3d": -6.62,
+            "1v": -8.14,
+            "2v": -1.61,
+            "1m": -2.35,
+            "3m": 4.21
+          }
+        },
+        {
+          "namn": "Instalco",
+          "ticker": "INSTAL.ST",
+          "enhet": "pct",
+          "datum": "2026-11-20",
+          "senast": 40.5,
+          "borsvarde_mdkr": 10.9,
+          "forandring": {
+            "1d": -3.53,
+            "2d": -3.48,
+            "3d": -4.3,
+            "1v": -7.24,
+            "2v": -2.97,
+            "1m": -4.75,
+            "3m": 9.93
+          }
+        },
+        {
+          "namn": "JM",
+          "ticker": "JM.ST",
+          "enhet": "pct",
+          "datum": "2026-11-20",
+          "senast": 123.3,
+          "borsvarde_mdkr": 8.0,
+          "forandring": {
+            "1d": -1.91,
+            "2d": -3.52,
+            "3d": -3.82,
+            "1v": -5.15,
+            "2v": -2.61,
+            "1m": -7.85,
+            "3m": -0.88
+          }
+        },
+        {
+          "namn": "Bonava",
+          "ticker": "BONAV-B.ST",
+          "enhet": "pct",
+          "datum": "2026-11-20",
+          "senast": 7.37,
+          "borsvarde_mdkr": 2.4,
+          "forandring": {
+            "1d": -0.81,
+            "2d": -0.94,
+            "3d": -0.54,
+            "1v": -1.73,
+            "2v": -3.41,
+            "1m": -15.09,
+            "3m": -25.1
+          }
+        }
+      ]
+    },
+    {
+      "grupp": "Fastighet",
+      "rader": [
+        {
+          "namn": "Catena",
+          "ticker": "CATE.ST",
+          "enhet": "pct",
+          "datum": "2026-11-20",
+          "senast": 378.6,
+          "borsvarde_mdkr": 25.1,
+          "forandring": {
+            "1d": -0.73,
+            "2d": -2.32,
+            "3d": -2.52,
+            "1v": -3.52,
+            "2v": -1.71,
+            "1m": 12.28,
+            "3m": -2.47
+          }
+        },
+        {
+          "namn": "Balder",
+          "ticker": "BALD-B.ST",
+          "enhet": "pct",
+          "datum": "2026-11-20",
+          "senast": 50.76,
+          "borsvarde_mdkr": 58.7,
+          "forandring": {
+            "1d": -0.78,
+            "2d": -3.5,
+            "3d": -2.98,
+            "1v": -3.42,
+            "2v": -4.08,
+            "1m": 10.88,
+            "3m": -5.16
+          }
+        },
+        {
+          "namn": "Sagax",
+          "ticker": "SAGA-B.ST",
+          "enhet": "pct",
+          "datum": "2026-11-20",
+          "senast": 179.7,
+          "borsvarde_mdkr": 88.9,
+          "forandring": {
+            "1d": -1.1,
+            "2d": -2.86,
+            "3d": -2.6,
+            "1v": -3.85,
+            "2v": -3.02,
+            "1m": 8.71,
+            "3m": 6.96
+          }
+        },
+        {
+          "namn": "Pandox",
+          "ticker": "PNDX-B.ST",
+          "enhet": "pct",
+          "datum": "2026-11-20",
+          "senast": 168.4,
+          "borsvarde_mdkr": 32.8,
+          "forandring": {
+            "1d": -1.29,
+            "2d": -2.21,
+            "3d": -2.09,
+            "1v": -3.44,
+            "2v": -2.55,
+            "1m": 4.73,
+            "3m": -2.66
+          }
+        },
+        {
+          "namn": "Hufvudstaden",
+          "ticker": "HUFV-A.ST",
+          "enhet": "pct",
+          "datum": "2026-11-20",
+          "senast": 113.1,
+          "borsvarde_mdkr": 22.0,
+          "forandring": {
+            "1d": -0.7,
+            "2d": -1.74,
+            "3d": -1.91,
+            "1v": -2.92,
+            "2v": -4.07,
+            "1m": 3.57,
+            "3m": -6.22
+          }
+        },
+        {
+          "namn": "Dios",
+          "ticker": "DIOS.ST",
+          "enhet": "pct",
+          "datum": "2026-11-20",
+          "senast": 58.55,
+          "borsvarde_mdkr": 8.1,
+          "forandring": {
+            "1d": -0.26,
+            "2d": -0.93,
+            "3d": -1.01,
+            "1v": -1.6,
+            "2v": -0.76,
+            "1m": 3.54,
+            "3m": -11.15
+          }
+        },
+        {
+          "namn": "Castellum",
+          "ticker": "CAST.ST",
+          "enhet": "pct",
+          "datum": "2026-11-20",
+          "senast": 130.85,
+          "borsvarde_mdkr": 56.4,
+          "forandring": {
+            "1d": -0.8,
+            "2d": -2.13,
+            "3d": -2.02,
+            "1v": -2.86,
+            "2v": -3.25,
+            "1m": 3.52,
+            "3m": -1.62
+          }
+        },
+        {
+          "namn": "Wihlborgs",
+          "ticker": "WIHL.ST",
+          "enhet": "pct",
+          "datum": "2026-11-20",
+          "senast": 69.65,
+          "borsvarde_mdkr": 21.4,
+          "forandring": {
+            "1d": -0.36,
+            "2d": -2.45,
+            "3d": -3.26,
+            "1v": -4.33,
+            "2v": -4.0,
+            "1m": 2.96,
+            "3m": -11.56
+          }
+        },
+        {
+          "namn": "Wallenstam",
+          "ticker": "WALL-B.ST",
+          "enhet": "pct",
+          "datum": "2026-11-20",
+          "senast": 38.46,
+          "borsvarde_mdkr": 24.3,
+          "forandring": {
+            "1d": -0.41,
+            "2d": -1.54,
+            "3d": -1.03,
+            "1v": -1.74,
+            "2v": -2.68,
+            "1m": 2.56,
+            "3m": -6.47
+          }
+        },
+        {
+          "namn": "Atrium Ljungberg",
+          "ticker": "ATRLJ-B.ST",
+          "enhet": "pct",
+          "datum": "2026-11-20",
+          "senast": 21.4,
+          "borsvarde_mdkr": 13.5,
+          "forandring": {
+            "1d": -0.47,
+            "2d": -2.28,
+            "3d": -2.73,
+            "1v": -3.6,
+            "2v": -3.39,
+            "1m": 2.15,
+            "3m": -17.21
+          }
+        },
+        {
+          "namn": "Fabege",
+          "ticker": "FABG.ST",
+          "enhet": "pct",
+          "datum": "2026-11-20",
+          "senast": 64.45,
+          "borsvarde_mdkr": 20.3,
+          "forandring": {
+            "1d": -0.08,
+            "2d": -1.6,
+            "3d": -1.6,
+            "1v": -3.16,
+            "2v": -2.94,
+            "1m": 1.74,
+            "3m": -14.75
+          }
+        },
+        {
+          "namn": "Corem",
+          "ticker": "CORE-B.ST",
+          "enhet": "pct",
+          "datum": "2026-11-20",
+          "senast": 2.02,
+          "borsvarde_mdkr": 2.3,
+          "forandring": {
+            "1d": -0.79,
+            "2d": -4.17,
+            "3d": -5.52,
+            "1v": -6.91,
+            "2v": -8.27,
+            "1m": -0.2,
+            "3m": -17.48
+          }
+        },
+        {
+          "namn": "Platzer",
+          "ticker": "PLAZ-B.ST",
+          "enhet": "pct",
+          "datum": "2026-11-20",
+          "senast": 59.8,
+          "borsvarde_mdkr": 7.0,
+          "forandring": {
+            "1d": -0.83,
+            "2d": -2.92,
+            "3d": -3.7,
+            "1v": -4.63,
+            "2v": -5.68,
+            "1m": -2.76,
+            "3m": -18.64
+          }
+        },
+        {
+          "namn": "SBB",
+          "ticker": "SBB-B.ST",
+          "enhet": "pct",
+          "datum": "2026-11-20",
+          "senast": 2.09,
+          "borsvarde_mdkr": 4.1,
+          "forandring": {
+            "1d": -0.57,
+            "2d": -3.47,
+            "3d": -5.13,
+            "1v": -8.82,
+            "2v": -5.31,
+            "1m": -18.15,
+            "3m": -34.99
+          }
+        }
+      ]
+    },
+    {
+      "grupp": "Räntor",
+      "rader": [
+        {
+          "namn": "Styrränta",
+          "serie": "SECBREPOEFF",
+          "enhet": "bp",
+          "datum": "2026-11-20",
+          "senast": 2.0,
+          "forandring": {
+            "1d": 0.0,
+            "2d": 0.0,
+            "3d": 0.0,
+            "1v": 0.0,
+            "2v": 25.0,
+            "1m": 25.0,
+            "3m": 25.0
+          }
+        },
+        {
+          "namn": "Stat 2Y",
+          "serie": "SEGVB2YC",
+          "enhet": "bp",
+          "datum": "2026-11-20",
+          "senast": 2.662,
+          "forandring": {
+            "1d": -9.9,
+            "2d": -7.7,
+            "3d": -8.5,
+            "1v": -9.4,
+            "2v": 5.6,
+            "1m": -9.4,
+            "3m": 26.5
+          }
+        },
+        {
+          "namn": "Stat 5Y",
+          "serie": "SEGVB5YC",
+          "enhet": "bp",
+          "datum": "2026-11-20",
+          "senast": 2.813,
+          "forandring": {
+            "1d": -10.2,
+            "2d": -9.5,
+            "3d": -10.5,
+            "1v": -11.5,
+            "2v": 4.3,
+            "1m": -18.7,
+            "3m": 8.7
+          }
+        },
+        {
+          "namn": "Stat 10Y",
+          "serie": "SEGVB10YC",
+          "enhet": "bp",
+          "datum": "2026-11-20",
+          "senast": 3.004,
+          "forandring": {
+            "1d": -10.9,
+            "2d": -9.9,
+            "3d": -10.3,
+            "1v": -7.1,
+            "2v": 3.0,
+            "1m": -17.9,
+            "3m": -2.4
+          }
+        },
+        {
+          "namn": "Bostadsobl. 2Y",
+          "serie": "SEMB2YCACOMB",
+          "enhet": "bp",
+          "datum": "2026-11-20",
+          "senast": 3.012,
+          "forandring": {
+            "1d": -8.2,
+            "2d": -7.1,
+            "3d": -6.6,
+            "1v": -6.3,
+            "2v": 8.0,
+            "1m": -13.0,
+            "3m": 30.3
+          }
+        }
+      ]
+    }
+  ],
+  "samband": {
+    "Fastighet": {
+      "mot": "Stat 5Y",
+      "korrelation": {
+        "1m": -0.42,
+        "3m": -0.48
+      },
+      "per_10bp_3m": -1.27
+    },
+    "Bygg": {
+      "mot": "Stat 5Y",
+      "korrelation": {
+        "1m": 0.6,
+        "3m": -0.09
+      },
+      "per_10bp_3m": -0.23
+    }
+  },
+  "prognoser_bygg": [
+    {
+      "namn": "Bravida",
+      "ticker": "BRAV.ST",
+      "borsvarde": 28633179495.0,
+      "nasta_rapport": "2026-10-23",
+      "0y": {
+        "eps": 7.56356,
+        "revidering": {
+          "1v": 0.0,
+          "1m": 6.56,
+          "3m": 7.11
+        },
+        "analytiker": 6.0,
+        "upp_30d": 6.0,
+        "ner_30d": 0.0,
+        "upp_7d": 6.0,
+        "ner_7d": 0.0
+      },
+      "+1y": {
+        "eps": 9.00942,
+        "revidering": {
+          "1v": -0.02,
+          "1m": 5.12,
+          "3m": 8.11
+        },
+        "analytiker": 7.0,
+        "upp_30d": 6.0,
+        "ner_30d": 0.0,
+        "upp_7d": 6.0,
+        "ner_7d": 0.0
+      },
+      "tillvaxt_nasta_ar": 19.1
+    },
+    {
+      "namn": "NCC",
+      "ticker": "NCC-B.ST",
+      "borsvarde": 18075543858.531036,
+      "nasta_rapport": "2027-02-03",
+      "0y": {
+        "eps": 6.245,
+        "revidering": {
+          "1v": -16.17,
+          "1m": -16.17,
+          "3m": -56.39
+        },
+        "analytiker": 2.0,
+        "upp_30d": 0.0,
+        "ner_30d": 3.0,
+        "upp_7d": 0.0,
+        "ner_7d": 3.0
+      },
+      "+1y": {
+        "eps": 10.08,
+        "revidering": {
+          "1v": 4.51,
+          "1m": 4.51,
+          "3m": -41.06
+        },
+        "analytiker": 2.0,
+        "upp_30d": 1.0,
+        "ner_30d": 2.0,
+        "upp_7d": 1.0,
+        "ner_7d": 2.0
+      },
+      "tillvaxt_nasta_ar": 61.4
+    },
+    {
+      "namn": "Instalco",
+      "ticker": "INSTAL.ST",
+      "borsvarde": 10884567456.0,
+      "nasta_rapport": "2026-10-23",
+      "0y": {
+        "eps": 2.37533,
+        "revidering": {
+          "1v": 11.46,
+          "1m": 8.73,
+          "3m": 9.03
+        },
+        "analytiker": 5.0,
+        "upp_30d": 4.0,
+        "ner_30d": 1.0,
+        "upp_7d": 4.0,
+        "ner_7d": 1.0
+      },
+      "+1y": {
+        "eps": 3.05935,
+        "revidering": {
+          "1v": 1.88,
+          "1m": 3.28,
+          "3m": 3.28
+        },
+        "analytiker": 5.0,
+        "upp_30d": 3.0,
+        "ner_30d": 2.0,
+        "upp_7d": 3.0,
+        "ner_7d": 2.0
+      },
+      "tillvaxt_nasta_ar": 28.8
+    },
+    {
+      "namn": "Peab",
+      "ticker": "PEAB-B.ST",
+      "borsvarde": 26926669496.466812,
+      "nasta_rapport": "2026-10-28",
+      "0y": {
+        "eps": 8.36333,
+        "revidering": {
+          "1v": 4.99,
+          "1m": 4.9,
+          "3m": 4.9
+        },
+        "analytiker": 3.0,
+        "upp_30d": 2.0,
+        "ner_30d": 0.0,
+        "upp_7d": 2.0,
+        "ner_7d": 0.0
+      },
+      "+1y": {
+        "eps": 9.0097,
+        "revidering": {
+          "1v": 8.25,
+          "1m": 1.41,
+          "3m": 1.41
+        },
+        "analytiker": 4.0,
+        "upp_30d": 2.0,
+        "ner_30d": 0.0,
+        "upp_7d": 2.0,
+        "ner_7d": 0.0
+      },
+      "tillvaxt_nasta_ar": 7.7
+    },
+    {
+      "namn": "Skanska",
+      "ticker": "SKA-B.ST",
+      "borsvarde": 121561089965.68494,
+      "nasta_rapport": "2027-01-29",
+      "0y": {
+        "eps": 16.63581,
+        "revidering": {
+          "1v": -1.85,
+          "1m": -2.38,
+          "3m": -2.43
+        },
+        "analytiker": 6.0,
+        "upp_30d": 0.0,
+        "ner_30d": 2.0,
+        "upp_7d": 0.0,
+        "ner_7d": 2.0
+      },
+      "+1y": {
+        "eps": 18.45982,
+        "revidering": {
+          "1v": 1.66,
+          "1m": 1.29,
+          "3m": 0.35
+        },
+        "analytiker": 8.0,
+        "upp_30d": 2.0,
+        "ner_30d": 0.0,
+        "upp_7d": 2.0,
+        "ner_7d": 0.0
+      },
+      "tillvaxt_nasta_ar": 11.0
+    },
+    {
+      "namn": "JM",
+      "ticker": "JM.ST",
+      "borsvarde": 7953446968.853149,
+      "nasta_rapport": "2026-10-21",
+      "0y": {
+        "eps": 3.36333,
+        "revidering": {
+          "1v": -2.42,
+          "1m": -20.39,
+          "3m": -20.39
+        },
+        "analytiker": 3.0,
+        "upp_30d": 1.0,
+        "ner_30d": 1.0,
+        "upp_7d": 0.0,
+        "ner_7d": 1.0
+      },
+      "+1y": {
+        "eps": 8.8,
+        "revidering": {
+          "1v": -3.12,
+          "1m": 0.66,
+          "3m": 0.66
+        },
+        "analytiker": 3.0,
+        "upp_30d": 0.0,
+        "ner_30d": 2.0,
+        "upp_7d": 0.0,
+        "ner_7d": 1.0
+      },
+      "tillvaxt_nasta_ar": 161.6
+    },
+    {
+      "namn": "Bonava",
+      "ticker": "BONAV-B.ST",
+      "borsvarde": 2370344212.6534367,
+      "nasta_rapport": null,
+      "0y": {
+        "eps": 0.435,
+        "revidering": {
+          "1v": 1.16,
+          "1m": -53.48,
+          "3m": -45.63
+        },
+        "analytiker": 2.0,
+        "upp_30d": 0.0,
+        "ner_30d": 2.0,
+        "upp_7d": 0.0,
+        "ner_7d": 0.0
+      },
+      "+1y": {
+        "eps": 1.26501,
+        "revidering": {
+          "1v": -13.85,
+          "1m": -29.53,
+          "3m": -32.3
+        },
+        "analytiker": 3.0,
+        "upp_30d": 0.0,
+        "ner_30d": 2.0,
+        "upp_7d": 0.0,
+        "ner_7d": 1.0
+      },
+      "tillvaxt_nasta_ar": 190.8
+    }
+  ],
+  "kommande_rapporter": [],
+  "grafer": {
+    "fastighet_mot_ranta": "https://raw.githubusercontent.com/claesludvig/verktyg/main/byggfastighet/data/grafer/2026-11-23/fastighet_mot_ranta.png",
+    "bygg_mot_ranta": "https://raw.githubusercontent.com/claesludvig/verktyg/main/byggfastighet/data/grafer/2026-11-23/bygg_mot_ranta.png",
+    "relativ_3m": "https://raw.githubusercontent.com/claesludvig/verktyg/main/byggfastighet/data/grafer/2026-11-23/relativ_3m.png"
+  },
+  "metod": "Kurser: Yahoo Finance. Räntor: Riksbanken (SWEA; Riksbanken publicerar inte swapräntor, bostadsobligationerna är närmaste mått på finansieringskostnaden). Sektorindexen är egna, börsvärdesviktade med dagens börsvärden, och inte Nasdaqs officiella index. Räntor i baspunkter, övrigt i procent. 1d–3d = handelsdagar, 1v–3m = kalenderdagar bakåt. Korrelation på dagliga förändringar. Räntekänslighet = sektorindexets rörelse i % per 10 bp högre Stat 5Y, senaste 3 månaderna. Vinstprognoser (analytikerkonsensus) bara för byggbolagen: fastighetsbolagens vinst per aktie domineras av värdeförändringar.",
+  "anmarkningar": [],
+  "fel": []
+}

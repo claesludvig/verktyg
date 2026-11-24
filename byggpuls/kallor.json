@@ -1,0 +1,90 @@
+{
+  "_kommentar": "Källor till Byggpulsen. Varje komponent blir en månadsserie i data/serier.csv. 'transform' och 'tecken' styr hur serien går in i indexet (se index.py). 'fordrojning_man' = hur många månader efter månadens slut värdet brukar finnas; används i efterhandstestet så att indexet bara ser det som fanns vid varje tidpunkt. 'frekvens': 'kvartal' betyder att fördröjningen räknas från kvartalets sista månad.",
+  "start": "2016-01",
+  "jobtech": {
+    "yrkesomrade_namn": "Bygg och anläggning",
+    "yrkesomrade_id_reserv": "j7Cq_ZJe_GkT"
+  },
+  "scb": {
+    "_kommentar": "Tabell-id och urval för SCB:s PxWebApi 2. Saknas 'tabell' söks tabellen fram med 'sok' och alla träffar loggas i data/scb_tabeller.txt.",
+    "bygglov_lgh": {
+      "sok": "bygglov nybyggnad lägenheter",
+      "tidsenhet": "Quarterly",
+      "etikett": "bygglov",
+      "tabell": "TAB2534",
+      "urval": {
+        "Region": [
+          "00"
+        ],
+        "Hustyp": [
+          "1113",
+          "21",
+          "2224"
+        ],
+        "ContentsCode": [
+          "BO0701A1"
+        ],
+        "Tid": "*"
+      }
+    },
+    "paborjade_lgh": {
+      "sok": "lägenheter nybyggda hus",
+      "tidsenhet": "Quarterly",
+      "etikett": "lägenheter i nybyggda hus",
+      "tabell": "TAB4572",
+      "urval": {
+        "Region": [
+          "00"
+        ],
+        "Hustyp": [
+          "FLERBO",
+          "SMÅHUS"
+        ],
+        "ContentsCode": [
+          "BO0101A4"
+        ],
+        "Tid": "*"
+      }
+    }
+  },
+  "swea": {
+    "Stat 5Y": "SEGVB5YC",
+    "Styrränta": "SECBREPOEFF"
+  },
+  "komponenter": [
+    {
+      "id": "andel_annonser_bygg",
+      "namn": "Platsannonser, byggets andel",
+      "transform": "yoy_3m",
+      "tecken": 1,
+      "fordrojning_man": 0
+    },
+    {
+      "id": "bygglov_lgh",
+      "namn": "Bygglov, nya lägenheter",
+      "transform": "yoy",
+      "frekvens": "kvartal",
+      "tecken": 1,
+      "fordrojning_man": 3
+    },
+    {
+      "id": "stat_5y",
+      "namn": "Statsobligation 5 år",
+      "transform": "diff12",
+      "tecken": -1,
+      "fordrojning_man": 0
+    },
+    {
+      "id": "byggaktier",
+      "namn": "Byggbolagens aktier",
+      "transform": "yoy",
+      "tecken": 1,
+      "fordrojning_man": 0
+    }
+  ],
+  "mal": {
+    "id": "paborjade_lgh",
+    "namn": "Påbörjade lägenheter (SCB)",
+    "fordrojning_man": 2
+  }
+}

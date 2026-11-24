@@ -1,0 +1,1664 @@
+[
+ {
+  "id": "NR0105ENS2010T01A",
+  "text": "Bruttoregionprodukt (BRP), sysselsatta och löner (ENS2010) efter region (län, riksområde). År 2000 - 2024",
+  "uppdaterad": "2026-06-24T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/NR/NR0105/NR0105A/NR0105ENS2010T01A"
+ },
+ {
+  "id": "NR0105ENS2010T03A",
+  "text": "Bruttoregionprodukt (BRP), sysselsatta och löner (ENS2010) efter region (län, riksområde) och näringsgren SNI 2007. År 2000 - 2024",
+  "uppdaterad": "2026-06-24T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/NR/NR0105/NR0105A/NR0105ENS2010T03A"
+ },
+ {
+  "id": "NR0105ENS2010T04A",
+  "text": "Bruttoregionprodukt (BRP), sysselsatta och löner (ENS2010) efter region (riksområde) och näringsgren SNI 2007. År 2000 - 2024",
+  "uppdaterad": "2026-06-24T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/NR/NR0105/NR0105A/NR0105ENS2010T04A"
+ },
+ {
+  "id": "NR0105ENS2010T06A",
+  "text": "Bruttoregionprodukt (BRP), (ENS2010) efter region (kommun). År 2012 - 2024",
+  "uppdaterad": "2026-06-24T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/NR/NR0105/NR0105A/NR0105ENS2010T06A"
+ },
+ {
+  "id": "NR0105ENS2010T05A",
+  "text": "Fasta bruttoinvesteringar (ENS2010) efter region (riksområde) och näringsgren SNI 2007. År 2000 - 2024",
+  "uppdaterad": "2026-06-24T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/NR/NR0105/NR0105A/NR0105ENS2010T05A"
+ },
+ {
+  "id": "NR0105ENS2010T02A",
+  "text": "Hushållens disponibla inkomster (ENS2010) efter region (län, riksområde) och transaktionspost. År 2000 - 2024",
+  "uppdaterad": "2026-06-26T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/NR/NR0105/NR0105A/NR0105ENS2010T02A"
+ },
+ {
+  "id": "NR0105ENS2010T02B",
+  "text": "Hushållens disponibla inkomster (ENS2010) efter region (kommun) och transaktionspost. År 2000 - 2024",
+  "uppdaterad": "2026-06-26T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/NR/NR0105/NR0105A/NR0105ENS2010T02B"
+ },
+ {
+  "id": "DispInkRegTransAr",
+  "text": "Hushållens disponibla inkomster (ENS95) efter region (län, riksområde) och transaktionspost. År 1995 - 2011",
+  "uppdaterad": "2013-12-12T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/NR/NR0105/NR0105B/DispInkRegTransAr"
+ },
+ {
+  "id": "BRPSysLonSNI1Ar",
+  "text": "Bruttoregionprodukt (BRP), sysselsatta och löner (ENS95) efter region (län, riksområde) och näringsgren SNI 2007. År 2000 - 2011",
+  "uppdaterad": "2013-12-12T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/NR/NR0105/NR0105B/BRPSysLonSNI1Ar"
+ },
+ {
+  "id": "BRPSysLonSNI2Ar",
+  "text": "Bruttoregionprodukt (BRP), sysselsatta och löner (ENS95) efter region (riksområde) och näringsgren SNI 2007. År 2000 - 2011",
+  "uppdaterad": "2013-12-12T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/NR/NR0105/NR0105B/BRPSysLonSNI2Ar"
+ },
+ {
+  "id": "BruttoinvRegSNIAr",
+  "text": "Fasta bruttoinvesteringar (ENS95) efter region (riksområde) och näringsgren SNI 2007. År 2000 - 2011",
+  "uppdaterad": "2013-12-12T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/NR/NR0105/NR0105B/BruttoinvRegSNIAr"
+ },
+ {
+  "id": "BRPSysLonAr",
+  "text": "Bruttoregionprodukt (BRP), sysselsatta och löner (ENS95) efter region (län, riksområde). År 1993 - 2011",
+  "uppdaterad": "2016-07-08T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/NR/NR0105/NR0105B/BRPSysLonAr"
+ },
+ {
+  "id": "BRPSysLonSNI1ArOLD",
+  "text": "Bruttoregionprodukt (BRP), sysselsatta och löner (ENS95) efter region (län, riksområde) och näringsgren SNI 2002. År 1993 - 2008",
+  "uppdaterad": "2010-12-17T14:59:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/NR/NR0105/NR0105B/BRPSysLonSNI1ArOLD"
+ },
+ {
+  "id": "BRPSysLonSNI2ArOLD",
+  "text": "Bruttoregionprodukt (BRP), sysselsatta och löner (ENS95) efter region (riksområde) och näringsgren SNI 2002. År 1993 - 2008",
+  "uppdaterad": "2010-12-22T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/NR/NR0105/NR0105B/BRPSysLonSNI2ArOLD"
+ },
+ {
+  "id": "BruttoinvRegSNIArOLD",
+  "text": "Fasta bruttoinvesteringar (ENS95) efter region (riksområde) och näringsgren SNI 2002. År 1995 - 2008",
+  "uppdaterad": "2010-12-14T09:34:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/NR/NR0105/NR0105B/BruttoinvRegSNIArOLD"
+ },
+ {
+  "id": "ArbKraftTillhSAPF",
+  "text": "Personer 16–65 år efter funktionsnedsättning, arbetskraftstillhörighet, kön och redovisningsgrupp. År 2023 - 2025",
+  "uppdaterad": "2026-04-27T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM7001/ArbKraftTillhSAPF"
+ },
+ {
+  "id": "InkomstSAPF",
+  "text": "Personer 16–65 år efter funktionsnedsättning, inkomstbaserat fattigdomsmått, kön och redovisningsgrupp. År 2025",
+  "uppdaterad": "2026-04-27T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM7001/InkomstSAPF"
+ },
+ {
+  "id": "SyssSektorSAPF",
+  "text": "Sysselsatta personer 16–65 år efter funktionsnedsättning, sektor, kön och redovisningsgrupp. År 2023 - 2025",
+  "uppdaterad": "2026-04-27T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM7001/SyssSektorSAPF"
+ },
+ {
+  "id": "SyssArbtidSAPF",
+  "text": "Sysselsatta personer 16–65 år efter funktionsnedsättning, veckoarbetstid, kön och redovisningsgrupp. År 2023 - 2025",
+  "uppdaterad": "2026-04-27T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM7001/SyssArbtidSAPF"
+ },
+ {
+  "id": "SyssAnsFtgSAPF",
+  "text": "Sysselsatta personer 16–65 år efter funktionsnedsättning, yrkesställning, kön och redovisningsgrupp. År 2023 - 2025",
+  "uppdaterad": "2026-04-27T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM7001/SyssAnsFtgSAPF"
+ },
+ {
+  "id": "SyssYrkeSAPF",
+  "text": "Sysselsatta personer 16–65 år efter funktionsnedsättning, yrke (SSYK 2012), kön och redovisningsgrupp År 2023 - 2025",
+  "uppdaterad": "2026-04-27T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM7001/SyssYrkeSAPF"
+ },
+ {
+  "id": "AnsFormSAPF",
+  "text": "Anställda personer 16–65 år efter funktionsnedsättning, anställningsform, kön och redovisningsgrupp. År 2023 - 2025",
+  "uppdaterad": "2026-04-27T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM7001/AnsFormSAPF"
+ },
+ {
+  "id": "DiskrArbLivSAPF",
+  "text": "Personer 16–65 år med funktionsnedsättning efter arbetsförmåga, diskriminering på arbetsmarknaden, kön och redovisningsgrupp. År 2024",
+  "uppdaterad": "2025-04-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM7001/DiskrArbLivSAPF"
+ },
+ {
+  "id": "SyssStodAnpSAPF",
+  "text": "Sysselsatta personer 16–65 år med funktionsnedsättning och nedsatt arbetsförmåga efter stödbehov och tilldelning, stöd- och anpassningsåtgärd, kön och redovisningsgrupp. År 2023 - 2025",
+  "uppdaterad": "2026-04-27T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM7001/SyssStodAnpSAPF"
+ },
+ {
+  "id": "IckeSyssStodAnpSAPF",
+  "text": "Ej sysselsatta personer 16–65 år med funktionsnedsättning och nedsatt arbetsförmåga efter stöd- och anpassningsåtgärder samt kön och redovisningsgrupp. År 2023 - 2025",
+  "uppdaterad": "2026-04-27T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM7001/IckeSyssStodAnpSAPF"
+ },
+ {
+  "id": "ArbStatusM",
+  "text": "Arbetsmarknadsstatus efter region, kön, ålder och födelseregion. Preliminär statistik. Månad 2020M01 - 2026M06",
+  "uppdaterad": "2026-08-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210A/ArbStatusM"
+ },
+ {
+  "id": "ArbStatusKv",
+  "text": "Arbetsmarknadsstatus efter region, kön, ålder och födelseregion. Preliminär statistik. Kvartal 2020K1 - 2026K2",
+  "uppdaterad": "2026-08-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210A/ArbStatusKv"
+ },
+ {
+  "id": "ArbStatusAr",
+  "text": "Arbetsmarknadsstatus efter region, kön, ålder och födelseregion. Preliminär statistik. År 2020 - 2025",
+  "uppdaterad": "2026-05-29T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210A/ArbStatusAr"
+ },
+ {
+  "id": "ArbStatFoT1",
+  "text": "Arbetsmarknadsstatus efter region, huvudsaklig inkomstkälla, kön, ålder och födelseregion. Preliminär statistik. Månad 2020M01 - 2026M06",
+  "uppdaterad": "2026-08-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210A/ArbStatFoT1"
+ },
+ {
+  "id": "ArbStatFAT12",
+  "text": "Arbetsmarknadsstatus efter region, arbetsrelaterad inkomstnivå, kön, ålder och födelseregion. Preliminär statistik. Månad 2020M01 - 2026M06",
+  "uppdaterad": "2026-08-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210A/ArbStatFAT12"
+ },
+ {
+  "id": "ArbStatHuv",
+  "text": "Arbetsmarknadsstatus efter region, huvudsaklig inkomstkälla, arbetsrelaterad inkomstnivå, kön, ålder och födelseregion. Preliminär statistik. Månad 2020M01 - 2026M06",
+  "uppdaterad": "2026-08-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210A/ArbStatHuv"
+ },
+ {
+  "id": "ArbStatusUtbM",
+  "text": "Arbetsmarknadsstatus efter region, kön, ålder, utbildningsnivå och födelseregion. Preliminär statistik. Månad  2020M01 - 2026M06",
+  "uppdaterad": "2026-08-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210A/ArbStatusUtbM"
+ },
+ {
+  "id": "ZArbStatusM",
+  "text": "Arbetsmarknadsstatus efter region, kön, ålder och födelseregion. Slutlig statistik. Månad 2020M01 - 2024M12",
+  "uppdaterad": "2025-11-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210C/ZArbStatusM"
+ },
+ {
+  "id": "ZArbStatusKv",
+  "text": "Arbetsmarknadsstatus efter region, kön, ålder och födelseregion. Slutlig statistik. Kvartal 2020K1 - 2024K4",
+  "uppdaterad": "2025-11-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210C/ZArbStatusKv"
+ },
+ {
+  "id": "ZArbStatusAr",
+  "text": "Arbetsmarknadsstatus efter region, kön, ålder och födelseregion. Slutlig statistik. År 2020 - 2024",
+  "uppdaterad": "2025-11-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210C/ZArbStatusAr"
+ },
+ {
+  "id": "ZArbStatFoT1",
+  "text": "Arbetsmarknadsstatus efter region, huvudsaklig inkomstkälla, kön, ålder och födelseregion. Slutlig statistik. Månad 2020M01 - 2024M12",
+  "uppdaterad": "2025-11-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210C/ZArbStatFoT1"
+ },
+ {
+  "id": "ZArbStatFAT12",
+  "text": "Arbetsmarknadsstatus efter region, arbetsrelaterad inkomstnivå, kön, ålder och födelseregion. Slutlig statistik. Månad 2020M01 - 2024M12",
+  "uppdaterad": "2025-11-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210C/ZArbStatFAT12"
+ },
+ {
+  "id": "ZArbStatHuv",
+  "text": "Arbetsmarknadsstatus efter region, huvudsaklig inkomstkälla, arbetsrelaterad inkomstnivå, kön, ålder och födelseregion. Slutlig statistik. Månad 2020M01 - 2024M12",
+  "uppdaterad": "2025-11-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210C/ZArbStatHuv"
+ },
+ {
+  "id": "ArRegArbStatus",
+  "text": "Arbetsmarknadsstatus efter region, kön, ålder och födelseregion. Årligt register. År 2020 - 2024",
+  "uppdaterad": "2025-11-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210D/ArRegArbStatus"
+ },
+ {
+  "id": "ArRegArbStatFoT1",
+  "text": "Arbetsmarknadsstatus efter region, huvudsaklig inkomstkälla, kön, ålder och födelseregion. Årligt register. År 2020 - 2024",
+  "uppdaterad": "2025-11-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210D/ArRegArbStatFoT1"
+ },
+ {
+  "id": "ArRegArbStatFAT12",
+  "text": "Arbetsmarknadsstatus efter region, arbetsrelaterad inkomstnivå, kön, ålder och födelseregion. Årligt register. År 2020 - 2024",
+  "uppdaterad": "2025-11-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210D/ArRegArbStatFAT12"
+ },
+ {
+  "id": "ArRegArbStatHuv",
+  "text": "Arbetsmarknadsstatus efter region, huvudsaklig inkomstkälla, arbetsrelaterad inkomstnivå, kön, ålder och födelseregion. Årligt register. År 2020 - 2024",
+  "uppdaterad": "2025-11-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210D/ArRegArbStatHuv"
+ },
+ {
+  "id": "ArbStDoNMNN",
+  "text": "Sysselsatta 15–74 år efter region, kön, näringsgren (SNI 2007) och födelseregion. Preliminär statistik. Månad 2020M01 - 2026M06",
+  "uppdaterad": "2026-08-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210B/ArbStDoNMNN"
+ },
+ {
+  "id": "ArbStDoNKvNN",
+  "text": "Sysselsatta 15–74 år efter region, kön, näringsgren (SNI 2007) och födelseregion. Preliminär statistik. Kvartal 2020K1 - 2026K2",
+  "uppdaterad": "2026-08-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210B/ArbStDoNKvNN"
+ },
+ {
+  "id": "ArbStDoNArNN",
+  "text": "Sysselsatta 15–74 år efter region, kön, näringsgren (SNI 2007) och födelseregion. Preliminär statistik. År 2020 - 2025",
+  "uppdaterad": "2026-06-12T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210B/ArbStDoNArNN"
+ },
+ {
+  "id": "YrkStallningM",
+  "text": "Sysselsatta 15–74 år efter region, yrkesställning, kön, ålder och födelseregion. Preliminär statistik. Månad 2020M01 - 2026M06",
+  "uppdaterad": "2026-08-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210B/YrkStallningM"
+ },
+ {
+  "id": "YrkStallningKv",
+  "text": "Sysselsatta 15–74 år efter region, yrkesställning, kön, ålder och födelseregion. Preliminär statistik. Kvartal 2020K1 - 2026K2",
+  "uppdaterad": "2026-08-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210B/YrkStallningKv"
+ },
+ {
+  "id": "YrkStallningAr",
+  "text": "Sysselsatta 15–74 år efter region, yrkesställning, kön, ålder och födelseregion. Preliminär statistik. År 2020 - 2025",
+  "uppdaterad": "2026-05-29T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210B/YrkStallningAr"
+ },
+ {
+  "id": "SektorSyssM",
+  "text": "Sysselsatta 15–74 år efter region, sektor, kön,  ålder och födelseregion. Preliminär statistik. Månad 2020M01 - 2026M06",
+  "uppdaterad": "2026-08-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210B/SektorSyssM"
+ },
+ {
+  "id": "SektorSyssKv",
+  "text": "Sysselsatta 15–74 år efter region, sektor, kön,  ålder och födelseregion. Preliminär statistik. Kvartal 2020K1 - 2026K2",
+  "uppdaterad": "2026-08-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210B/SektorSyssKv"
+ },
+ {
+  "id": "SektorSyssAr",
+  "text": "Sysselsatta 15–74 år efter region, sektor, kön,  ålder och födelseregion. Preliminär statistik. År 2020 - 2025",
+  "uppdaterad": "2026-05-29T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210B/SektorSyssAr"
+ },
+ {
+  "id": "ZArbStDoNMN",
+  "text": "Sysselsatta 15–74 år efter region, kön, näringsgren (SNI 2007) och födelseregion. Slutlig statistik. Månad 2020M01 - 2024M12",
+  "uppdaterad": "2025-11-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210E/ZArbStDoNMN"
+ },
+ {
+  "id": "ZArbStDoNKvN",
+  "text": "Sysselsatta 15–74 år efter region, kön, näringsgren (SNI 2007) och födelseregion. Slutlig statistik. Kvartal 2020K1 - 2024K4",
+  "uppdaterad": "2025-11-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210E/ZArbStDoNKvN"
+ },
+ {
+  "id": "ZArbStDoNArN",
+  "text": "Sysselsatta 15–74 år efter region, kön, näringsgren (SNI 2007) och födelseregion. Slutlig statistik. År 2020 - 2024",
+  "uppdaterad": "2025-11-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210E/ZArbStDoNArN"
+ },
+ {
+  "id": "ZYrkStallningM",
+  "text": "Sysselsatta 15–74 år efter region, yrkesställning, kön, ålder och födelseregion. Slutlig statistik. Månad 2020M01 - 2024M12",
+  "uppdaterad": "2025-11-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210E/ZYrkStallningM"
+ },
+ {
+  "id": "ZYrkStallningKv",
+  "text": "Sysselsatta 15–74 år efter region, yrkesställning, kön, ålder och födelseregion. Slutlig statistik. Kvartal 2020K1 - 2024K4",
+  "uppdaterad": "2025-11-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210E/ZYrkStallningKv"
+ },
+ {
+  "id": "ZYrkStallningAr",
+  "text": "Sysselsatta 15–74 år efter region, yrkesställning, kön, ålder och födelseregion. Slutlig statistik. År 2020 - 2024",
+  "uppdaterad": "2025-11-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210E/ZYrkStallningAr"
+ },
+ {
+  "id": "ZSektorSyssM",
+  "text": "Sysselsatta 15–74 år efter region, sektor, kön,  ålder och födelseregion. Slutlig statistik. Månad 2020M01 - 2024M12",
+  "uppdaterad": "2025-11-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210E/ZSektorSyssM"
+ },
+ {
+  "id": "ZSektorSyssKv",
+  "text": "Sysselsatta 15–74 år efter region, sektor, kön,  ålder och födelseregion. Slutlig statistik. Kvartal 2020K1 - 2024K4",
+  "uppdaterad": "2025-11-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210E/ZSektorSyssKv"
+ },
+ {
+  "id": "ZSektorSyssAr",
+  "text": "Sysselsatta 15–74 år efter region, sektor, kön,  ålder och födelseregion. Slutlig statistik. År 2020 - 2024",
+  "uppdaterad": "2025-11-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210E/ZSektorSyssAr"
+ },
+ {
+  "id": "ArRegArbStDoN",
+  "text": "Sysselsatta 15–74 år efter region, kön, näringsgren (SNI 2007) och födelseregion. Årligt register. År 2020 - 2024",
+  "uppdaterad": "2025-11-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210F/ArRegArbStDoN"
+ },
+ {
+  "id": "ArRegUtb",
+  "text": "Sysselsatta 15–74 år efter region, kön, näringsgren (SNI 2007) och utbildningsnivå. Årligt register. År 2020 - 2024",
+  "uppdaterad": "2025-11-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210F/ArRegUtb"
+ },
+ {
+  "id": "ArRegYrkStallning",
+  "text": "Sysselsatta 15–74 år efter region, yrkesställning, kön, ålder och födelseregion. Årligt register. År 2020 - 2024",
+  "uppdaterad": "2025-11-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210F/ArRegYrkStallning"
+ },
+ {
+  "id": "ArRegSektorSyss",
+  "text": "Sysselsatta 15–74 år efter region, sektor, kön,  ålder och födelseregion. Årligt register. År 2020 - 2024",
+  "uppdaterad": "2025-11-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210F/ArRegSektorSyss"
+ },
+ {
+  "id": "ArRegSNI2007Riket",
+  "text": "Sysselsatta 15–74 år efter näringsgren (SNI 2007), yrkesställning, kön, ålder och födelseregion. Årligt register. År 2020 - 2024",
+  "uppdaterad": "2025-11-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210F/ArRegSNI2007Riket"
+ },
+ {
+  "id": "ArRegPend1",
+  "text": "Sysselsatta 15–74 år efter bostadens belägenhet i förhållande till arbetsställets belägenhet, kommun och kön. Årligt register. År 2020 - 2024",
+  "uppdaterad": "2025-11-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210F/ArRegPend1"
+ },
+ {
+  "id": "ArRegPend2",
+  "text": "Sysselsatta 15–74 år efter bostadskommun, arbetsställekommun och kön. Årligt register. År 2020 - 2024",
+  "uppdaterad": "2025-11-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210F/ArRegPend2"
+ },
+ {
+  "id": "ArRegDesoStatus",
+  "text": "Arbetsmarknadsstatus efter bostadens belägenhet, region (DeSO 2018 t.o.m. år 2023/RegSO 2020 t.o.m. år 2023), kön och ålder. Årligt register. År 2020 - 2023",
+  "uppdaterad": "2024-11-29T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210G/ArRegDesoStatus"
+ },
+ {
+  "id": "ArRegDesoSNI2007",
+  "text": "Sysselsatta 15–74 år efter bostadens belägenhet, region (DeSO 2018 t.o.m. år 2023/RegSO 2020 t.o.m. år 2023), kön och näringsgren (SNI 2007). Årligt register. År 2020 - 2023",
+  "uppdaterad": "2024-11-29T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210G/ArRegDesoSNI2007"
+ },
+ {
+  "id": "ArRegDesoSektor",
+  "text": "Sysselsatta 15–74 år efter bostadens belägenhet, region (DeSO 2018 t.o.m. år 2023/RegSO 2020 t.o.m. år 2023), kön och sektor. Årligt register. År 2020 - 2023",
+  "uppdaterad": "2024-11-29T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210G/ArRegDesoSektor"
+ },
+ {
+  "id": "ArRegDesoStatusN",
+  "text": "Arbetsmarknadsstatus efter bostadens belägenhet, region (DeSO/RegSO), kön och ålder. Årligt register.  År 2020 - 2024",
+  "uppdaterad": "2025-11-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210G/ArRegDesoStatusN"
+ },
+ {
+  "id": "ArRegDesoSNI2007N",
+  "text": "Sysselsatta 15–74 år efter bostadens belägenhet, region (DeSO/RegSO), kön och näringsgren (SNI 2007). Årligt register.  År 2020 - 2024",
+  "uppdaterad": "2025-11-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210G/ArRegDesoSNI2007N"
+ },
+ {
+  "id": "ArRegDesoSektorN",
+  "text": "Sysselsatta 15–74 år efter bostadens belägenhet, region (DeSO/RegSO), kön och sektor. Årligt register.  År 2020 - 2024",
+  "uppdaterad": "2025-11-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210G/ArRegDesoSektorN"
+ },
+ {
+  "id": "NTAM0210A",
+  "text": "Nyckeltal från Befolkningens arbetsmarknadsstatus (BAS). Antal sysselsatta efter region. Preliminär statistik.  Månad 2021M01 - 2026M06",
+  "uppdaterad": "2026-08-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210N/NTAM0210A"
+ },
+ {
+  "id": "NTAM0210C",
+  "text": "Nyckeltal från Befolkningens arbetsmarknadsstatus (BAS). Sysselsättningsgrad och arbetslöshet efter region. Preliminär statistik.  Månad 2024M01 - 2026M06",
+  "uppdaterad": "2026-08-28T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210N/NTAM0210C"
+ },
+ {
+  "id": "ZZFtgStyrning1",
+  "text": "Antal operativa verksamhetsledare efter kön, födelseregion, ålder, sektor, storleksklass och näringsgren (SNI 2007). År 2020 - 2024",
+  "uppdaterad": "2026-02-11T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210H/ZZFtgStyrning1"
+ },
+ {
+  "id": "ZZFtgStyrning2",
+  "text": "Antal operativa verksamhetsledare inom näringslivet efter kön, storleksklass, näringsgren (SNI 2007) och företagets säteslän. År 2020 - 2024",
+  "uppdaterad": "2026-02-11T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210H/ZZFtgStyrning2"
+ },
+ {
+  "id": "ZZFtgStyrning3",
+  "text": "Antal operativa verksamhetsledare inom näringslivet efter kön, näringsgren (SNI 2007) och företagets säteskommun. År 2020 - 2024",
+  "uppdaterad": "2026-02-11T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0210/AM0210H/ZZFtgStyrning3"
+ },
+ {
+  "id": "KS15Anstallda",
+  "text": "Antal anställda (KS) efter region och sektor. Kvartal 2015K2 - 2023K4",
+  "uppdaterad": "2024-02-23T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0201/AM0201A/KS15Anstallda"
+ },
+ {
+  "id": "AnstalldaKonAnstT1",
+  "text": "Antal anställda efter sektor, kön och anställningsform. Kvartal 2015K2 - 2023K4",
+  "uppdaterad": "2024-02-23T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0201/AM0201A/AnstalldaKonAnstT1"
+ },
+ {
+  "id": "KS15AnstSNI2007KvT2b",
+  "text": "Antal anställda inom näringslivet (KS), efter näringsgren SNI2007. Kvartal 2015K2 - 2023K4",
+  "uppdaterad": "2024-02-23T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0201/AM0201A/KS15AnstSNI2007KvT2b"
+ },
+ {
+  "id": "KSAnstalldaBrT4b",
+  "text": "Antal anställda inom näringslivet (KS) efter län och bransch. Kvartal 2015K2 - 2023K4",
+  "uppdaterad": "2024-02-23T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0201/AM0201A/KSAnstalldaBrT4b"
+ },
+ {
+  "id": "KSsjukfrNaringLan",
+  "text": "Andel sjukfrånvarande i näringslivet, efter län. Kvartal 2015K2 - 2023K4",
+  "uppdaterad": "2024-02-23T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0201/AM0201B/KSsjukfrNaringLan"
+ },
+ {
+  "id": "KS15sjukSNI2007",
+  "text": "Andel sjukfrånvarande inom näringslivet (KS) efter näringsgren SNI 2007. Kvartal 2015K2 - 2023K4",
+  "uppdaterad": "2024-02-23T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0201/AM0201B/KS15sjukSNI2007"
+ },
+ {
+  "id": "KS15franvaroSekt",
+  "text": "Andel sjukfrånvarande (KS) efter kön och sektor. Kvartal 2015K2 - 2023K4",
+  "uppdaterad": "2024-02-23T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0201/AM0201B/KS15franvaroSekt"
+ },
+ {
+  "id": "FranvNaringT7",
+  "text": "Andel frånvarande inom näringslivet efter näringsgren och frånvaroorsak. Kvartal 2015K2 - 2023K4",
+  "uppdaterad": "2024-02-23T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0201/AM0201B/FranvNaringT7"
+ },
+ {
+  "id": "KSNyanstalldAvgTills",
+  "text": "Nyanställda och avgångna med tillsvidareanställning av totalt antal tillsvidareanställda efter näringsgren i Näringslivet. Kvartal 2015K2 - 2023K4",
+  "uppdaterad": "2024-02-23T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0201/AM0201E/KSNyanstalldAvgTills"
+ },
+ {
+  "id": "LAPSSektornyKv",
+  "text": "Lönesummor, arbetsgivaravgifter och preliminär A-skatt från skattedeklarationerna (LAPS) efter sektor. Kvartal 2001K1 - 2024K4",
+  "uppdaterad": "2025-02-21T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0206/AM0206A/LAPSSektornyKv"
+ },
+ {
+  "id": "LAPSKvGr07ny",
+  "text": "Lönesummor, arbetsgivaravgifter och preliminär A-skatt från skattedeklarationerna (LAPS) inom näringslivet efter näringsgren SNI 2007, grov indelning. Kvartal 2008K1 - 2024K4",
+  "uppdaterad": "2025-02-21T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0206/AM0206A/LAPSKvGr07ny"
+ },
+ {
+  "id": "LAPSKvSNI2007ny",
+  "text": "Lönesummor, arbetsgivaravgifter och preliminär A-skatt från skattedeklarationerna (LAPS) inom näringslivet efter näringsgren SNI 2007. Kvartal 2008K1 - 2024K4",
+  "uppdaterad": "2025-02-21T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0206/AM0206A/LAPSKvSNI2007ny"
+ },
+ {
+  "id": "BefSyssAldKonKN",
+  "text": "Befolkningen 16-74 år (RAMS) efter region, sysselsättning, ålder och kön, ny tidsserie. År 2019 - 2021",
+  "uppdaterad": "2022-11-24T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207Z/BefSyssAldKonKN"
+ },
+ {
+  "id": "BefSyssFoIaAldRN",
+  "text": "Befolkningen 16-74 år (RAMS) i riket efter sysselsättning, födelseregion, senaste invandringsår, ålder och kön, ny tidsserie. År 2019 - 2021",
+  "uppdaterad": "2022-11-24T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207Z/BefSyssFoIaAldRN"
+ },
+ {
+  "id": "NattSni07KonKN",
+  "text": "Förvärvsarbetande 16-74 år med bostad i regionen (nattbefolkning) (RAMS) efter region, näringsgren SNI 2007 och kön, ny tidsserie. År 2019 - 2021",
+  "uppdaterad": "2022-11-24T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207Z/NattSni07KonKN"
+ },
+ {
+  "id": "NattSektAldKN",
+  "text": "Förvärvsarbetande 16-74 år med bostad i regionen (nattbefolkning) (RAMS) efter region, arbetsställets sektortillhörighet, ålder och kön, ny tidsserie. År 2019 - 2021",
+  "uppdaterad": "2022-11-24T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207Z/NattSektAldKN"
+ },
+ {
+  "id": "NattSni07FoRN",
+  "text": "Förvärvsarbetande 16-74 år (nattbefolkning) (RAMS) i riket efter näringsgren SNI 2007, födelseregion och kön, ny tidsserie. År 2019 - 2021",
+  "uppdaterad": "2022-11-24T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207Z/NattSni07FoRN"
+ },
+ {
+  "id": "NattSNI07YrkstAldRN",
+  "text": "Förvärvsarbetande 16-74 år (nattbefolkning) (RAMS) i riket efter näringsgren SNI 2007, yrkesställning, ålder och kön, ny tidsserie. År 2019 - 2021",
+  "uppdaterad": "2022-11-24T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207Z/NattSNI07YrkstAldRN"
+ },
+ {
+  "id": "RamsForvInt04N",
+  "text": "Förvärvsintensitet 20-64 år (RAMS) efter region, in- och utrikes födda och kön, ny tidsserie. År 2019 - 2021",
+  "uppdaterad": "2022-11-24T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207Z/RamsForvInt04N"
+ },
+ {
+  "id": "DagSni07KonKN",
+  "text": "Förvärvsarbetande 16-74 år med arbetsplats i regionen (dagbefolkning) (RAMS) efter region, näringsgren SNI 2007 och kön, ny tidsserie. År 2019 - 2021",
+  "uppdaterad": "2022-11-24T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207Z/DagSni07KonKN"
+ },
+ {
+  "id": "DagSektAldKN",
+  "text": "Förvärvsarbetande 16-74 år med arbetsplats i regionen (dagbefolkning) (RAMS) efter region, arbetsställets sektortillhörighet, ålder och kön, ny tidsserie. År 2019 - 2021",
+  "uppdaterad": "2022-11-24T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207Z/DagSektAldKN"
+ },
+ {
+  "id": "DagSni07YrkstAldRN",
+  "text": "Förvärvsarbetande 16-74 år (dagbefolkning) (RAMS) i riket efter näringsgren SNI 2007, yrkesställning, ålder och kön, ny tidsserie. År 2019 - 2021",
+  "uppdaterad": "2022-11-24T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207Z/DagSni07YrkstAldRN"
+ },
+ {
+  "id": "PendlingKN",
+  "text": "Förvärvsarbetande pendlare 16-74 år över kommungräns (RAMS) efter kommun och kön, ny tidsserie. År 2019 - 2021",
+  "uppdaterad": "2022-11-24T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207Z/PendlingKN"
+ },
+ {
+  "id": "AM0207PendlKomA04N",
+  "text": "Förvärvsarbetande pendlare 16-74 år över kommungräns efter bostadskommun, arbetsställekommun och kön, ny tidsserie. År 2019 - 2021",
+  "uppdaterad": "2022-11-24T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207Z/AM0207PendlKomA04N"
+ },
+ {
+  "id": "ForvUtlAlderN",
+  "text": "Andel utrikes födda förvärvsarbetande 20-64 år efter åldersgrupp, ny tidsserie. År 2019 - 2021",
+  "uppdaterad": "2022-11-24T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207Z/ForvUtlAlderN"
+ },
+ {
+  "id": "ForetBolFormN",
+  "text": "Antal företagare efter region, bolagsform och kön, ny tidsserie. År 2019 - 2021",
+  "uppdaterad": "2022-11-24T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207Z/ForetBolFormN"
+ },
+ {
+  "id": "ForvFodRegN",
+  "text": "Andel förvärvsarbetande 20-64 år efter födelseregion, ny tidsserie. År 2019 - 2021",
+  "uppdaterad": "2022-11-24T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207Z/ForvFodRegN"
+ },
+ {
+  "id": "NattDeSoBra",
+  "text": "Förvärvsarbetande nattbefolkning 16+ år efter region och bransch (SNI07). År 2018",
+  "uppdaterad": "2020-11-26T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207I/NattDeSoBra"
+ },
+ {
+  "id": "NattDeSoSekt",
+  "text": "Förvärvsarbetande nattbefolkning 16+ år efter region, sektor och kön. År 2018",
+  "uppdaterad": "2020-11-26T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207I/NattDeSoSekt"
+ },
+ {
+  "id": "BefDeSoSyss",
+  "text": "Befolkningen 20-64 år efter region, sysselsättning och kön. År 2018",
+  "uppdaterad": "2020-11-26T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207I/BefDeSoSyss"
+ },
+ {
+  "id": "NattDeSoBraN",
+  "text": "Förvärvsarbetande nattbefolkning 16-74 år efter region och bransch (SNI07), ny tidsserie. År 2019 - 2021",
+  "uppdaterad": "2022-11-24T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207I/NattDeSoBraN"
+ },
+ {
+  "id": "BefDeSoSyssN",
+  "text": "Befolkningen 20-64 år efter region, sysselsättning och kön, ny tidsserie. År 2019 - 2021",
+  "uppdaterad": "2022-11-24T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207I/BefDeSoSyssN"
+ },
+ {
+  "id": "NattDeSoSektN",
+  "text": "Förvärvsarbetande nattbefolkning 16-74 år efter region, sektor och kön, ny tidsserie. År 2019 - 2021",
+  "uppdaterad": "2022-11-24T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207I/NattDeSoSektN"
+ },
+ {
+  "id": "BefSyssAldKonK",
+  "text": "Befolkningen 16+ år (RAMS) efter region, sysselsättning, ålder och kön. År 2004 - 2018",
+  "uppdaterad": "2019-11-28T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207H/BefSyssAldKonK"
+ },
+ {
+  "id": "BefSyssMbAldR",
+  "text": "Befolkningen 16+ år (RAMS) i riket efter sysselsättning, medborgarskapsland, ålder och kön. År 2004 - 2018",
+  "uppdaterad": "2019-11-28T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207H/BefSyssMbAldR"
+ },
+ {
+  "id": "BefSyssFoIaAldR",
+  "text": "Befolkningen 16+ år (RAMS) i riket efter sysselsättning, födelseregion, senaste invandringsår, ålder och kön. År 2004 - 2018",
+  "uppdaterad": "2019-11-28T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207H/BefSyssFoIaAldR"
+ },
+ {
+  "id": "AMPAK2",
+  "text": "Befolkningen 16+ år (RAMS) efter region, sysselsättning, ålder och kön. År 1993-2003 1993 - 2003",
+  "uppdaterad": "2005-03-21T10:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207A/AMPAK2"
+ },
+ {
+  "id": "RAMSBefSyssMbAldR",
+  "text": "Befolkningen 16+ år (RAMS) i riket efter sysselsättning, medborgarskapsland, ålder och kön. År 1993-2003 1993 - 2003",
+  "uppdaterad": "2005-03-21T10:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207A/RAMSBefSyssMbAldR"
+ },
+ {
+  "id": "RAMSBefSyssFOIaAldR",
+  "text": "Befolkningen 16+ år (RAMS) i riket efter sysselsättning, födelseland, antal år i Sverige, ålder och kön. År 1993-2003 1993 - 2003",
+  "uppdaterad": "2011-03-30T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207A/RAMSBefSyssFOIaAldR"
+ },
+ {
+  "id": "PendlingK",
+  "text": "Förvärvsarbetande pendlare 16+ år över kommungräns (RAMS) efter kommun och kön. År 2004 - 2018",
+  "uppdaterad": "2019-11-28T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207L/PendlingK"
+ },
+ {
+  "id": "PendlingK9303",
+  "text": "Förvärvsarbetande pendlare 16+ år över kommungräns (RAMS) efter kommun och kön. År 1993-2003 1993 - 2003",
+  "uppdaterad": "2007-03-26T09:31:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207L/PendlingK9303"
+ },
+ {
+  "id": "PendlingL",
+  "text": "Förvärvsarbetande pendlare 16+ år över länsgräns (RAMS) efter län och kön. År 2004 - 2018",
+  "uppdaterad": "2019-11-28T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207L/PendlingL"
+ },
+ {
+  "id": "PendlingL9303",
+  "text": "Förvärvsarbetande pendlare 16+ år över länsgräns (RAMS) efter län och kön. År 1993-2003 1993 - 2003",
+  "uppdaterad": "2007-03-26T09:32:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207L/PendlingL9303"
+ },
+ {
+  "id": "AM0207PendlKomA04",
+  "text": "Förvärvsarbetande pendlare 16+ år över kommungräns efter bostadskommun, arbetsställekommun och kön. År 2004 - 2018",
+  "uppdaterad": "2019-11-28T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207L/AM0207PendlKomA04"
+ },
+ {
+  "id": "AM0207PendlKomA9303",
+  "text": "Förvärvsarbetande pendlare 16+ år över kommungräns efter bostadskommun, arbetsställekommun och kön. År 1993-2003 1993 - 2003",
+  "uppdaterad": "2012-02-06T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207L/AM0207PendlKomA9303"
+ },
+ {
+  "id": "AM0207PendlLanA04",
+  "text": "Förvärvsarbetande pendlare 16+ år över länsgräns efter bostadslän, arbetsställelän och kön. År 2004 - 2018",
+  "uppdaterad": "2019-11-28T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207L/AM0207PendlLanA04"
+ },
+ {
+  "id": "AM0207PendlLanA9303",
+  "text": "Förvärvsarbetande pendlare 16+ år över länsgräns efter bostadslän, arbetsställelän och kön. År 1993-2003 1993 - 2003",
+  "uppdaterad": "2012-02-06T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207L/AM0207PendlLanA9303"
+ },
+ {
+  "id": "ForvUtlAlder",
+  "text": "Andel utrikes födda förvärvsarbetande 20-64 år efter åldersgrupp. År 2015 - 2018",
+  "uppdaterad": "2020-11-26T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207J/ForvUtlAlder"
+ },
+ {
+  "id": "NattSNI07KonK",
+  "text": "Förvärvsarbetande 16+ år med bostad i regionen (nattbefolkning) (RAMS) efter region, näringsgren SNI 2007 och kön. År 2008 - 2018",
+  "uppdaterad": "2019-11-28T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207J/NattSNI07KonK"
+ },
+ {
+  "id": "ForvFodreg",
+  "text": "Andel förvärvsarbetande 20-64 år efter födelseregion. År 2015 - 2018",
+  "uppdaterad": "2020-11-26T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207J/ForvFodreg"
+ },
+ {
+  "id": "NattSNIKonK",
+  "text": "Förvärvsarbetande 16+ år med bostad i regionen (nattbefolkning) (RAMS) efter region, näringsgren SNI 2002 och kön. År 2004 - 2007",
+  "uppdaterad": "2008-12-16T09:45:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207J/NattSNIKonK"
+ },
+ {
+  "id": "NattSektAldK",
+  "text": "Förvärvsarbetande 16+ år med bostad i regionen (nattbefolkning) (RAMS) efter region, arbetsställets sektortillhörighet, ålder och kön. År 2004 - 2018",
+  "uppdaterad": "2019-11-28T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207J/NattSektAldK"
+ },
+ {
+  "id": "ForetBolForm",
+  "text": "Antal företagare efter region, bolagsform och kön. År 2015 - 2018",
+  "uppdaterad": "2020-11-26T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207J/ForetBolForm"
+ },
+ {
+  "id": "NattSNI07FoR",
+  "text": "Förvärvsarbetande 16+ år (nattbefolkning) (RAMS) i riket efter näringsgren SNI 2007, födelseland och kön. År 2008 - 2018",
+  "uppdaterad": "2019-11-28T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207J/NattSNI07FoR"
+ },
+ {
+  "id": "NattSniFoR",
+  "text": "Förvärvsarbetande 16+ år (nattbefolkning) (RAMS) i riket efter näringsgren SNI 2002, födelseland och kön. År 2004 - 2007",
+  "uppdaterad": "2013-03-04T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207J/NattSniFoR"
+ },
+ {
+  "id": "NattSNI07MbR",
+  "text": "Förvärvsarbetande 16+ år (nattbefolkning) (RAMS) i riket efter näringsgren SNI 2007, medborgarskapsland och kön. År 2008 - 2018",
+  "uppdaterad": "2019-11-28T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207J/NattSNI07MbR"
+ },
+ {
+  "id": "NattSniMbR",
+  "text": "Förvärvsarbetande 16+ år (nattbefolkning) (RAMS) i riket efter näringsgren SNI 2002, medborgarskapsland och kön. År 2004 - 2007",
+  "uppdaterad": "2013-03-04T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207J/NattSniMbR"
+ },
+ {
+  "id": "NattSNI07YrkstAldR",
+  "text": "Förvärvsarbetande 16+ år (nattbefolkning) (RAMS) i riket efter näringsgren SNI 2007, yrkesställning, ålder och kön. År 2008 - 2018",
+  "uppdaterad": "2019-11-28T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207J/NattSNI07YrkstAldR"
+ },
+ {
+  "id": "NattSniYrkstAldR",
+  "text": "Förvärvsarbetande 16+ år (nattbefolkning) (RAMS) i riket efter näringsgren SNI 2002, yrkesställning, ålder och kön. År 2004 - 2007",
+  "uppdaterad": "2013-03-04T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207J/NattSniYrkstAldR"
+ },
+ {
+  "id": "RAMSForvInt04",
+  "text": "Förvärvsintensitet 20-64 år (RAMS) efter region, in- och utrikes födda och kön . År 2004 - 2018",
+  "uppdaterad": "2019-11-28T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207J/RAMSForvInt04"
+ },
+ {
+  "id": "AMPAK4",
+  "text": "Förvärvsarbetande 16+ år med bostad i regionen (nattbefolkning) (RAMS) efter region, näringsgren SNI92 och kön. År 1993-2003 1993 - 2003",
+  "uppdaterad": "2005-03-21T10:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207B/AMPAK4"
+ },
+ {
+  "id": "RAMSNSektAldK",
+  "text": "Förvärvsarbetande 16+ år med bostad i regionen (nattbefolkning) (RAMS) efter region, arbetsställets sektortillhörighet, ålder och kön. År 1993-2003 1993 - 2003",
+  "uppdaterad": "2005-03-21T10:02:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207B/RAMSNSektAldK"
+ },
+ {
+  "id": "RAMSNSNIFoR",
+  "text": "Förvärvsarbetande 16+ år (nattbefolkning) (RAMS) i riket efter näringsgren SNI92, födelseland och kön. År 1993-2003 1993 - 2003",
+  "uppdaterad": "2005-03-21T10:01:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207B/RAMSNSNIFoR"
+ },
+ {
+  "id": "RAMSNSNIMbR",
+  "text": "Förvärvsarbetande 16+ år (nattbefolkning) (RAMS) i riket efter näringsgren SNI92, medborgarskapsland och kön. År 1993-2003 1993 - 2003",
+  "uppdaterad": "2005-03-21T10:01:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207B/RAMSNSNIMbR"
+ },
+ {
+  "id": "RAMSNSNIYrkstAldR",
+  "text": "Förvärvsarbetande 16+ år (nattbefolkning) (RAMS) i riket efter näringsgren SNI92, yrkesställning, ålder och kön. År 1993-2003 1993 - 2003",
+  "uppdaterad": "2006-02-08T09:35:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207B/RAMSNSNIYrkstAldR"
+ },
+ {
+  "id": "RAMSForvInt03",
+  "text": "Förvärvsintensitet 20-64 år (RAMS) efter region, in- och utrikes födda och kön. År 1993 - 2003",
+  "uppdaterad": "2016-02-10T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207B/RAMSForvInt03"
+ },
+ {
+  "id": "DagSNI07KonK",
+  "text": "Förvärvsarbetande 16+ år med arbetsplats i regionen (dagbefolkning) (RAMS) efter region, näringsgren SNI 2007 och kön. År 2008 - 2018",
+  "uppdaterad": "2019-11-28T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207K/DagSNI07KonK"
+ },
+ {
+  "id": "DagSNIKonK",
+  "text": "Förvärvsarbetande 16+ år med arbetsplats i regionen (dagbefolkning) (RAMS) efter region, näringsgren SNI 2002 och kön. År 2004 - 2007",
+  "uppdaterad": "2008-12-16T09:44:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207K/DagSNIKonK"
+ },
+ {
+  "id": "DagSektAldK",
+  "text": "Förvärvsarbetande 16+ år med arbetsplats i regionen (dagbefolkning) (RAMS) efter region, arbetsställets sektortillhörighet, ålder och kön. År 2004 - 2018",
+  "uppdaterad": "2019-11-28T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207K/DagSektAldK"
+ },
+ {
+  "id": "DagSniUtbnStorlkR",
+  "text": "Förvärvsarbetande 16+ år (dagbefolkning) (RAMS) i riket efter näringsgren SNI 2002, utbildningsnivå, arbetsställets storleksklass och kön. År 2004 - 2007",
+  "uppdaterad": "2013-03-04T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207K/DagSniUtbnStorlkR"
+ },
+ {
+  "id": "DagSNI07UtbnStorlkR",
+  "text": "Förvärvsarbetande 16+ år (dagbefolkning) (RAMS) i riket efter näringsgren SNI 2007, utbildningsnivå, arbetsställets storleksklass och kön. År 2008 - 2018",
+  "uppdaterad": "2019-11-28T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207K/DagSNI07UtbnStorlkR"
+ },
+ {
+  "id": "DagSNI07YrkstAldR",
+  "text": "Förvärvsarbetande 16+ år (dagbefolkning) (RAMS) i riket efter näringsgren SNI 2007, yrkesställning, ålder och kön.  År 2008 - 2018",
+  "uppdaterad": "2019-11-28T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207K/DagSNI07YrkstAldR"
+ },
+ {
+  "id": "DagSniYrkstAldR",
+  "text": "Förvärvsarbetande 16+ år (dagbefolkning) (RAMS) i riket efter näringsgren SNI 2002, yrkesställning, ålder och kön. År 2004 - 2007",
+  "uppdaterad": "2013-03-04T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207K/DagSniYrkstAldR"
+ },
+ {
+  "id": "DagSNI07YrkstUtbnR",
+  "text": "Förvärvsarbetande 16+ år (dagbefolkning) (RAMS) i riket efter näringsgren SNI 2007, yrkesställning, utbildningsnivå och kön. År 2008 - 2018",
+  "uppdaterad": "2019-11-28T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207K/DagSNI07YrkstUtbnR"
+ },
+ {
+  "id": "DagSniYrkstUtbnR",
+  "text": "Förvärvsarbetande 16+ år (dagbefolkning) (RAMS) i riket efter näringsgren SNI 2002, yrkesställning, utbildningsnivå och kön. År 2004 - 2007",
+  "uppdaterad": "2013-03-04T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207K/DagSniYrkstUtbnR"
+ },
+ {
+  "id": "AMPAK3",
+  "text": "Förvärvsarbetande 16+ år med arbetsplats i regionen (dagbefolkning) (RAMS) efter region, näringsgren SNI92 och kön. År 1990-2003 1990 - 2003",
+  "uppdaterad": "2005-03-21T10:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207C/AMPAK3"
+ },
+ {
+  "id": "RAMSDSektAldK",
+  "text": "Förvärvsarbetande 16+ år med arbetsplats i regionen (dagbefolkning) (RAMS) efter region, arbetsställets sektortillhörighet, ålder och kön. År 1993-2003 1993 - 2003",
+  "uppdaterad": "2005-03-21T10:01:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207C/RAMSDSektAldK"
+ },
+ {
+  "id": "RAMSDSNIUtbnStorlkR",
+  "text": "Förvärvsarbetande 16+ år (dagbefolkning) (RAMS) i riket efter näringsgren SNI92, utb.nivå, arb.storleksklass och kön. År 1993-2003 1993 - 2003",
+  "uppdaterad": "2017-02-10T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207C/RAMSDSNIUtbnStorlkR"
+ },
+ {
+  "id": "RAMSDSNIYrkstAldR",
+  "text": "Förvärvsarbetande 16+ år (dagbefolkning) (RAMS) i riket efter näringsgren SNI92, yrkesställning, ålder och kön. År 1993-2003 1993 - 2003",
+  "uppdaterad": "2005-03-21T10:01:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207C/RAMSDSNIYrkstAldR"
+ },
+ {
+  "id": "RAMSDSNIYrkstUtbnR",
+  "text": "Förvärvsarbetande 16+ år (dagbefolkning) (RAMS) i riket efter näringsgren SNI92, yrkesställning, utb.nivå och kön. År 1993-2003 1993 - 2003",
+  "uppdaterad": "2005-03-21T10:01:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207C/RAMSDSNIYrkstUtbnR"
+ },
+ {
+  "id": "AMPAK1",
+  "text": "Befolkningen 16+ år (ÅRSYS) efter region, sysselsättning, ålder och kön. År 1985 - 1993",
+  "uppdaterad": "1997-01-01T00:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0207/AM0207E/AMPAK1"
+ },
+ {
+  "id": "LSUMLan",
+  "text": "Lönesummor, preliminär A-skatt, arbetsställen och antal årssummerade arbetsgivardeklarationer/kontrolluppgifter (ÅrsAgi/KU) efter region. År 1998 - 2024",
+  "uppdaterad": "2025-12-03T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0302/AM0302A/LSUMLan"
+ },
+ {
+  "id": "LSUMsektorL",
+  "text": "Lönesummor, preliminär A-skatt, arbetsställen och antal årssummerade arbetsgivardeklarationer/kontrolluppgifter (ÅrsAgi/KU) efter sektorstillhörighet (enligt RAMS). År 2010 - 2021",
+  "uppdaterad": "2022-11-24T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0302/AM0302A/LSUMsektorL"
+ },
+ {
+  "id": "LSUMSNI",
+  "text": "Lönesummor, preliminär A-skatt, arbetsställen och kontrolluppgifter enligt Kontrolluppgiftsregistret (KU) efter arbetsställets näringsgren SNI 2002 (grov nivå). År 1998 - 2007",
+  "uppdaterad": "2008-12-16T09:43:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0302/AM0302A/LSUMSNI"
+ },
+ {
+  "id": "LSUMsektor",
+  "text": "Lönesummor, preliminär A-skatt, arbetsställen och kontrolluppgifter enligt Kontrolluppgiftsregistret (KU) efter sektor. År 1999 - 2013",
+  "uppdaterad": "2014-12-04T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0302/AM0302A/LSUMsektor"
+ },
+ {
+  "id": "LSUMSocN",
+  "text": "Skattepliktiga sociala ersättningar, preliminär A-skatt och antal årssummerade arbetsgivardeklarationer/kontrolluppgifter (ÅrsAgi/KU) efter typ av ersättning. År 2018 - 2024",
+  "uppdaterad": "2025-12-03T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0302/AM0302A/LSUMSocN"
+ },
+ {
+  "id": "LSUMSoc",
+  "text": "Skattepliktiga sociala ersättningar, preliminär A-skatt och antal årssummerade arbetsgivardeklarationer/kontrolluppgifter (ÅrsAgi/KU) efter typ av ersättning (Uppdateras ej). År 1998 - 2017",
+  "uppdaterad": "2022-11-24T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0302/AM0302A/LSUMSoc"
+ },
+ {
+  "id": "LSUMkommunNatt",
+  "text": "Lönesummor och antalet årsAGI/KU efter bostadskommun (nattbefolkning). År 2010 - 2025",
+  "uppdaterad": "2026-09-22T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0302/AM0302A/LSUMkommunNatt"
+ },
+ {
+  "id": "LSUMkommun",
+  "text": "Lönesummor och antalet årssummerade arbetsgivardeklarationer/kontrolluppgifter (ÅrsAgi/KU) efter arbetsställekommun (dagbefolkning) och bostadskommun (nattbefolkning). År 2005 - 2024",
+  "uppdaterad": "2025-12-03T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0302/AM0302A/LSUMkommun"
+ },
+ {
+  "id": "LSUMSNI07",
+  "text": "Lönesummor, preliminär A-skatt, arbetsställen och antal årssummerade arbetsgivardeklarationer/kontrolluppgifter (ÅrsAgi/KU) efter arbetsställets näringsgren SNI 2007 (grov nivå). År 2007 - 2024",
+  "uppdaterad": "2025-12-03T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0302/AM0302A/LSUMSNI07"
+ },
+ {
+  "id": "LSUMsektorLN",
+  "text": "Lönesummor, preliminär A-skatt, arbetsställen och antal årssummerade arbetsgivardeklarationer/kontrolluppgifter (ÅrsAgi/KU) efter sektorstillhörighet (enligt BAS). År 2022 - 2024",
+  "uppdaterad": "2025-12-03T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0302/AM0302A/LSUMsektorLN"
+ },
+ {
+  "id": "LSUMLanKon",
+  "text": "Lönesummor, preliminär A-skatt och antal årssummerade arbetsgivardeklarationer/kontrolluppgifter (ÅrsAgi/KU) efter region och kön. År 2003 - 2024",
+  "uppdaterad": "2025-12-03T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0302/AM0302B/LSUMLanKon"
+ },
+ {
+  "id": "LSUMSNIKon",
+  "text": "Lönesummor, preliminär A-skatt och kontrolluppgifter enligt Kontrolluppgiftsregistret (KU) efter arbetsställets näringsgren SNI 2002 (grov nivå) och kön. År 2003 - 2007",
+  "uppdaterad": "2008-12-16T09:43:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0302/AM0302B/LSUMSNIKon"
+ },
+ {
+  "id": "LSUMsektorKon",
+  "text": "Lönesummor, preliminär A-skatt och kontrolluppgifter enligt Kontrolluppgiftsregistret (KU) efter sektor och kön. År 2003 - 2013",
+  "uppdaterad": "2014-12-04T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0302/AM0302B/LSUMsektorKon"
+ },
+ {
+  "id": "LSUMsektorKN",
+  "text": "Lönesummor, preliminär A-skatt, arbetsställen och antal årssummerade arbetsgivardeklarationer/kontrolluppgifter (ÅrsAgi/KU) efter sektorstillhörighet (enligt BAS) och kön. År 2022 - 2024",
+  "uppdaterad": "2025-12-03T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0302/AM0302B/LSUMsektorKN"
+ },
+ {
+  "id": "LSUMsektorK",
+  "text": "Lönesummor, preliminär A-skatt, arbetsställen och antal årssummerade arbetsgivardeklarationer/kontrolluppgifter (ÅrsAgi/KU) efter sektorstillhörighet (enligt RAMS) och kön. År 2010 - 2021",
+  "uppdaterad": "2022-11-24T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0302/AM0302B/LSUMsektorK"
+ },
+ {
+  "id": "LSUMSocKonN",
+  "text": "Skattepliktiga sociala ersättningar, preliminär A-skatt och antal årssummerade arbetsgivardeklarationer/kontrolluppgifter (ÅrsAgi/KU) efter typ av ersättning och kön . År 2018 - 2024",
+  "uppdaterad": "2025-12-03T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0302/AM0302B/LSUMSocKonN"
+ },
+ {
+  "id": "LSUMSocKon",
+  "text": "Skattepliktiga sociala ersättningar, preliminär A-skatt och antal årssummerade arbetsgivardeklarationer/kontrolluppgifter (ÅrsAgi/KU) efter typ av ersättning och kön (Uppdateras ej). År 2003 - 2017",
+  "uppdaterad": "2022-11-24T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0302/AM0302B/LSUMSocKon"
+ },
+ {
+  "id": "LSUMkommunkonNatt",
+  "text": "Lönesummor och antalet årsAGI/KU efter bostadskommun (nattbefolkning) och kön. År 2010 - 2025",
+  "uppdaterad": "2026-09-22T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0302/AM0302B/LSUMkommunkonNatt"
+ },
+ {
+  "id": "LSUMkommunkon",
+  "text": "Lönesummor och antalet årssummerade arbetsgivardeklarationer/kontrolluppgifter (ÅrsAgi/KU) efter arbetsställekommun (dagbefolkning) och bostadskommun (nattbefolkning) och kön. År 2005 - 2024",
+  "uppdaterad": "2025-12-03T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0302/AM0302B/LSUMkommunkon"
+ },
+ {
+  "id": "LSUMSNIKon07",
+  "text": "Lönesummor, preliminär A-skatt, arbetsställen och antal årssummerade arbetsgivardeklarationer/kontrolluppgifter (ÅrsAgi/KU) efter arbetsställets näringsgren SNI 2007 (grov nivå) och kön. År 2007 - 2024",
+  "uppdaterad": "2025-12-03T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0302/AM0302B/LSUMSNIKon07"
+ },
+ {
+  "id": "YREG1N",
+  "text": "Befolkningen 16+ år efter region, sysselsättning, ålder och kön. Baserat på RAMS. År 2019 - 2021",
+  "uppdaterad": "2023-03-08T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208A/YREG1N"
+ },
+ {
+  "id": "YREG1",
+  "text": "Befolkningen 16+ år efter region, sysselsättning, ålder och kön. År 2001 - 2018",
+  "uppdaterad": "2020-03-05T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208A/YREG1"
+ },
+ {
+  "id": "YREG61BAS",
+  "text": "Anställda i riket efter yrke (3-siffrig SSYK 2012), näringsgren SNI2007 (grov nivå), ålder och kön. Baserat på BAS. År 2020 - 2024",
+  "uppdaterad": "2026-01-16T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208B/YREG61BAS"
+ },
+ {
+  "id": "YREG61N",
+  "text": "Anställda 16-64 år i riket efter yrke (3-siffrig SSYK 2012), näringsgren SNI2007 (grov nivå), ålder och kön. Baserat på RAMS. År 2019 - 2021",
+  "uppdaterad": "2023-03-08T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208B/YREG61N"
+ },
+ {
+  "id": "YREG62BAS",
+  "text": "Anställda i riket efter yrke (3-siffrig SSYK 2012), arbetsställets sektortillhörighet, ålder och kön. Baserat på BAS. År 2020 - 2024",
+  "uppdaterad": "2026-01-16T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208B/YREG62BAS"
+ },
+ {
+  "id": "YREG62N",
+  "text": "Anställda 16-64 år i riket efter yrke (3-siffrig SSYK 2012), arbetsställets sektortillhörighet, ålder och kön. Baserat på RAMS. År 2019 - 2021",
+  "uppdaterad": "2023-03-08T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208B/YREG62N"
+ },
+ {
+  "id": "YREG64BAS",
+  "text": "Anställda i riket efter yrke (3-siffrig SSYK 2012), utbildningsinriktning (SUN 2020), ålder och kön. Baserat på BAS. År 2020 - 2024",
+  "uppdaterad": "2026-01-16T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208B/YREG64BAS"
+ },
+ {
+  "id": "YREG63BAS",
+  "text": "Anställda i riket efter yrke (3-siffrig SSYK 2012), utbildningsnivå SUN 2020, ålder och kön. Baserat på BAS. År 2020 - 2024",
+  "uppdaterad": "2026-01-16T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208B/YREG63BAS"
+ },
+ {
+  "id": "YREG63N",
+  "text": "Anställda 16-64 år i riket efter yrke (3-siffrig SSYK 2012), utbildningsnivå SUN 2020, ålder och kön. Baserat på RAMS. År 2019 - 2021",
+  "uppdaterad": "2023-03-08T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208B/YREG63N"
+ },
+ {
+  "id": "YREG64N",
+  "text": "Anställda 16-64 år i riket efter yrke (3-siffrig SSYK 2012), utbildningsinriktning (SUN 2020), ålder och kön. Baserat på RAMS. År 2019 - 2021",
+  "uppdaterad": "2023-03-08T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208B/YREG64N"
+ },
+ {
+  "id": "YREG65BAS",
+  "text": "Anställda i riket efter yrke (3-siffrig SSYK 2012), födelseregion och kön. Baserat på BAS. År 2020 - 2024",
+  "uppdaterad": "2026-01-16T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208B/YREG65BAS"
+ },
+ {
+  "id": "YREG65N",
+  "text": "Anställda 16-64 år i riket efter yrke (3-siffrig SSYK 2012), födelseregion och kön. Baserat på RAMS. År 2019 - 2021",
+  "uppdaterad": "2023-03-08T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208B/YREG65N"
+ },
+ {
+  "id": "YREG66BAS",
+  "text": "Anställda i riket efter yrke (3-siffrig SSYK 2012), näringsgren SNI2007 (grov nivå), arbetsställets storleksklass och kön. Baserat på BAS. År 2020 - 2024",
+  "uppdaterad": "2026-01-16T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208B/YREG66BAS"
+ },
+ {
+  "id": "YREG66N",
+  "text": "Anställda 16-64 år i riket efter yrke (3-siffrig SSYK 2012), näringsgren SNI2007 (grov nivå), arbetsställets storleksklass och kön. Baserat på RAMS. År 2019 - 2021",
+  "uppdaterad": "2023-03-08T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208B/YREG66N"
+ },
+ {
+  "id": "YREG61",
+  "text": "Anställda 16-64 år i riket efter yrke (3-siffrig SSYK 2012), näringsgren SNI2007 (grov nivå), ålder och kön. År 2014 - 2018",
+  "uppdaterad": "2020-03-05T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208B/YREG61"
+ },
+ {
+  "id": "YREG62",
+  "text": "Anställda 16-64 år i riket efter yrke (3-siffrig SSYK 2012), arbetsställets sektortillhörighet, ålder och kön. År 2014 - 2018",
+  "uppdaterad": "2020-03-05T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208B/YREG62"
+ },
+ {
+  "id": "YREG63",
+  "text": "Anställda 16-64 år i riket efter yrke (3-siffrig SSYK 2012), utbildningsnivå SUN 2000, ålder och kön. År 2014 - 2018",
+  "uppdaterad": "2020-03-05T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208B/YREG63"
+ },
+ {
+  "id": "YREG64",
+  "text": "Anställda 16-64 år i riket efter yrke (3-siffrig SSYK 2012), utbildningsinriktning (SUN 2000), ålder och kön. År 2014 - 2018",
+  "uppdaterad": "2020-03-05T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208B/YREG64"
+ },
+ {
+  "id": "YREG65",
+  "text": "Anställda 16-64 år i riket efter yrke (3-siffrig SSYK 2012), födelseregion och kön. År 2014 - 2018",
+  "uppdaterad": "2020-03-05T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208B/YREG65"
+ },
+ {
+  "id": "YREG66",
+  "text": "Anställda 16-64 år i riket efter yrke (3-siffrig SSYK 2012), näringsgren SNI2007 (grov nivå), arbetsställets storleksklass och kön. År 2014 - 2018",
+  "uppdaterad": "2020-03-05T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208B/YREG66"
+ },
+ {
+  "id": "YREG13B",
+  "text": "Anställda 16-64 år i riket efter yrke (3-siffrig SSYK 96), födelseregion och kön. År 2001 - 2013",
+  "uppdaterad": "2015-02-12T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208B/YREG13B"
+ },
+ {
+  "id": "YREG20",
+  "text": "Anställda 16-64 år i riket efter yrke (3-siffrig SSYK 96), näringsgren SNI2002 (grov nivå), ålder och kön. År 2001 - 2010",
+  "uppdaterad": "2012-03-07T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208B/YREG20"
+ },
+ {
+  "id": "YREG2007",
+  "text": "Anställda 16-64 år i riket efter yrke (3-siffrig SSYK 96), näringsgren SNI2007 (grov nivå), ålder och kön. År 2008 - 2013",
+  "uppdaterad": "2015-02-12T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208B/YREG2007"
+ },
+ {
+  "id": "YREG18",
+  "text": "Anställda 16-64 år i riket efter yrke (3-siffrig SSYK 96), arbetsställets sektortillhörighet, ålder och kön. År 2001 - 2013",
+  "uppdaterad": "2015-02-12T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208B/YREG18"
+ },
+ {
+  "id": "YREG26",
+  "text": "Anställda 16-64 år i riket efter yrke (3-siffrig SSYK 96), utbildningsnivå SUN 2000, ålder och kön. År 2001 - 2013",
+  "uppdaterad": "2015-02-12T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208B/YREG26"
+ },
+ {
+  "id": "YREG27",
+  "text": "Anställda 16-64 år i riket efter yrke (3-siffrig SSYK 96), utbildningsinriktning (SUN 2000), ålder och kön. År 2001 - 2013",
+  "uppdaterad": "2015-02-12T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208B/YREG27"
+ },
+ {
+  "id": "YREG41",
+  "text": "Anställda 16-64 år i riket efter yrke (3-siffrig SSYK 96), näringsgren SNI2002 (grov nivå), arbetsställets storleksklass och kön. År 2007 - 2010",
+  "uppdaterad": "2012-03-07T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208B/YREG41"
+ },
+ {
+  "id": "YREG4107",
+  "text": "Anställda 16-64 år i riket efter yrke (3-siffrig SSYK 96), näringsgren SNI2007 (grov nivå), arbetsställets storleksklass och kön. År 2008 - 2013",
+  "uppdaterad": "2015-02-12T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208B/YREG4107"
+ },
+ {
+  "id": "YREG50BAS",
+  "text": "Anställda i riket efter yrke (4-siffrig SSYK 2012), arbetsställets sektortillhörighet och kön. Baserat på BAS. År 2020 - 2024",
+  "uppdaterad": "2026-01-16T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208E/YREG50BAS"
+ },
+ {
+  "id": "YREG50N",
+  "text": "Anställda 16-64 år i riket efter yrke (4-siffrig SSYK 2012), arbetsställets sektortillhörighet och kön. Baserat på RAMS. År 2019 - 2021",
+  "uppdaterad": "2023-03-08T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208E/YREG50N"
+ },
+ {
+  "id": "YREG51BAS",
+  "text": "Anställda i riket efter yrke (4-siffrig SSYK 2012), utbildningsnivå SUN 2020, ålder och kön. Baserat på BAS. År 2020 - 2024",
+  "uppdaterad": "2026-01-16T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208E/YREG51BAS"
+ },
+ {
+  "id": "YREG51N",
+  "text": "Anställda 16-64 år i riket efter yrke (4-siffrig SSYK 2012), utbildningsnivå SUN 2020, ålder och kön. Baserat på RAMS. År 2019 - 2021",
+  "uppdaterad": "2023-03-08T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208E/YREG51N"
+ },
+ {
+  "id": "YREG52BAS",
+  "text": "Anställda i riket efter yrke (4-siffrig SSYK 2012), utbildningsinriktning (SUN 2020), ålder och kön. Baserat på BAS. År 2020 - 2024",
+  "uppdaterad": "2026-01-16T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208E/YREG52BAS"
+ },
+ {
+  "id": "YREG52N",
+  "text": "Anställda 16-64 år i riket efter yrke (4-siffrig SSYK 2012), utbildningsinriktning (SUN 2020), ålder och kön. Baserat på RAMS. År 2019 - 2021",
+  "uppdaterad": "2023-03-08T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208E/YREG52N"
+ },
+ {
+  "id": "YREG53BAS",
+  "text": "Anställda i riket efter yrke (4-siffrig SSYK 2012), födelseregion och kön. Baserat på BAS. År 2020 - 2024",
+  "uppdaterad": "2026-01-16T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208E/YREG53BAS"
+ },
+ {
+  "id": "YREG53N",
+  "text": "Anställda 16-64 år i riket efter yrke (4-siffrig SSYK 2012), födelseregion och kön. Baserat på RAMS. År 2019 - 2021",
+  "uppdaterad": "2023-03-08T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208E/YREG53N"
+ },
+ {
+  "id": "YREG54BAS",
+  "text": "Anställda i riket efter yrke (4-siffrig SSYK 2012), näringsgren SNI2007 (grov nivå), ålder och kön. Baserat på BAS. År 2020 - 2024",
+  "uppdaterad": "2026-01-16T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208E/YREG54BAS"
+ },
+ {
+  "id": "YREG54N",
+  "text": "Anställda 16-64 år i riket efter yrke (4-siffrig SSYK 2012), näringsgren SNI2007 (grov nivå), ålder och kön. Baserat på RAMS. År 2019 - 2021",
+  "uppdaterad": "2023-03-08T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208E/YREG54N"
+ },
+ {
+  "id": "YREG50",
+  "text": "Anställda 16-64 år i riket efter yrke (4-siffrig SSYK 2012), arbetsställets sektortillhörighet och kön. År 2014 - 2018",
+  "uppdaterad": "2020-03-05T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208E/YREG50"
+ },
+ {
+  "id": "YREG51",
+  "text": "Anställda 16-64 år i riket efter yrke (4-siffrig SSYK 2012), utbildningsnivå SUN 2000, ålder och kön. År 2014 - 2018",
+  "uppdaterad": "2020-03-05T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208E/YREG51"
+ },
+ {
+  "id": "YREG52",
+  "text": "Anställda 16-64 år i riket efter yrke (4-siffrig SSYK 2012), utbildningsinriktning (SUN 2000), ålder och kön. År 2014 - 2018",
+  "uppdaterad": "2020-03-05T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208E/YREG52"
+ },
+ {
+  "id": "YREG53",
+  "text": "Anställda 16-64 år i riket efter yrke (4-siffrig SSYK 2012), födelseregion och kön. År 2014 - 2018",
+  "uppdaterad": "2020-03-05T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208E/YREG53"
+ },
+ {
+  "id": "YREG54",
+  "text": "Anställda 16-64 år i riket efter yrke (4-siffrig SSYK 2012), näringsgren SNI2007 (grov nivå), ålder och kön. År 2014 - 2018",
+  "uppdaterad": "2020-03-05T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208E/YREG54"
+ },
+ {
+  "id": "YREG36",
+  "text": "Anställda 16-64 år i riket efter yrke (4-siffrig SSYK 96), födelseregion och kön. År 2005 - 2013",
+  "uppdaterad": "2015-02-12T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208E/YREG36"
+ },
+ {
+  "id": "YREG33",
+  "text": "Anställda 16-64 år i riket efter yrke (4-siffrig SSYK 96), arbetsställets sektortillhörighet och kön. År 2005 - 2013",
+  "uppdaterad": "2015-02-12T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208E/YREG33"
+ },
+ {
+  "id": "Yreg34",
+  "text": "Anställda 16-64 år i riket efter yrke (4-siffrig SSYK 96), utbildningsnivå SUN 2000, ålder och kön. År 2005 - 2013",
+  "uppdaterad": "2015-02-12T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208E/Yreg34"
+ },
+ {
+  "id": "YREG35",
+  "text": "Anställda 16-64 år i riket efter yrke (4-siffrig SSYK 96), utbildningsinriktning (SUN 2000), ålder och kön. År 2005 - 2013",
+  "uppdaterad": "2015-02-12T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208E/YREG35"
+ },
+ {
+  "id": "YREG40",
+  "text": "Anställda 16-64 år i riket efter yrke (4-siffrig SSYK 96), näringsgren SNI2002 (grov nivå), ålder och kön. År 2005 - 2010",
+  "uppdaterad": "2012-03-07T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208E/YREG40"
+ },
+ {
+  "id": "YREG4007",
+  "text": "Anställda 16-64 år i riket efter yrke (4-siffrig SSYK 96), näringsgren SNI2007 (grov nivå), ålder och kön. År 2008 - 2013",
+  "uppdaterad": "2015-02-12T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208E/YREG4007"
+ },
+ {
+  "id": "YREG55BAS",
+  "text": "Anställda med bostad i regionen (nattbef) efter län, yrke (3-siffrig SSYK 2012), ålder och kön. Baserat på BAS. År 2020 - 2024",
+  "uppdaterad": "2026-01-16T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208C/YREG55BAS"
+ },
+ {
+  "id": "YREG55N",
+  "text": "Anställda 16-64 år med bostad i regionen (nattbef) efter län, yrke (3-siffrig SSYK 2012), ålder och kön. Baserat på RAMS. År 2019 - 2021",
+  "uppdaterad": "2023-03-08T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208C/YREG55N"
+ },
+ {
+  "id": "YREG55",
+  "text": "Anställda 16-64 år med bostad i regionen (nattbef) efter län, yrke (3-siffrig SSYK 2012), ålder och kön. År 2014 - 2018",
+  "uppdaterad": "2020-03-05T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208C/YREG55"
+ },
+ {
+  "id": "YREG14",
+  "text": "Anställda 16-64 år med bostad i regionen (nattbef) efter län, yrke (3-siffrig SSYK 96), ålder och kön. År 2001 - 2013",
+  "uppdaterad": "2015-02-12T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208C/YREG14"
+ },
+ {
+  "id": "YREG56BAS",
+  "text": "Anställda med arbetsplats i regionen (dagbef) efter region, yrke (3-siffrig SSYK 2012), näringsgren SNI2007 (grov nivå) och kön. Baserat på BAS. År 2020 - 2024",
+  "uppdaterad": "2026-01-16T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208D/YREG56BAS"
+ },
+ {
+  "id": "YREG56N",
+  "text": "Anställda 16-64 år med arbetsplats i regionen (dagbef) efter region, yrke (3-siffrig SSYK 2012), näringsgren SNI2007 (grov nivå) och kön. Baserat på RAMS. År 2019 - 2021",
+  "uppdaterad": "2023-03-08T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208D/YREG56N"
+ },
+ {
+  "id": "YREG57BAS",
+  "text": "Anställda med arbetsplats i regionen (dagbef) efter län, yrke (3-siffrig SSYK 2012), ålder och kön. Baserat på BAS. År 2020 - 2024",
+  "uppdaterad": "2026-01-16T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208D/YREG57BAS"
+ },
+ {
+  "id": "YREG57N",
+  "text": "Anställda 16-64 år med arbetsplats i regionen (dagbef) efter län, yrke (3-siffrig SSYK 2012), ålder och kön. Baserat på RAMS. År 2019 - 2021",
+  "uppdaterad": "2023-03-08T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208D/YREG57N"
+ },
+ {
+  "id": "YREG58BAS",
+  "text": "Anställda med arbetsplats i regionen (dagbef) efter region, yrke (3-siffrig SSYK 2012) och kön. Baserat på BAS. År 2020 - 2024",
+  "uppdaterad": "2026-01-16T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208D/YREG58BAS"
+ },
+ {
+  "id": "YREG58N",
+  "text": "Anställda 16-64 år med arbetsplats i regionen (dagbef) efter region, yrke (3-siffrig SSYK 2012) och kön. Baserat på RAMS. År 2019 - 2021",
+  "uppdaterad": "2023-03-08T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208D/YREG58N"
+ },
+ {
+  "id": "YREG59BAS",
+  "text": "Anställda med arbetsplats i regionen (dagbef) efter region, yrke (3-siffrig SSYK 2012), arbetsställets sektortillhörighet och kön. Baserat på BAS. År 2020 - 2024",
+  "uppdaterad": "2026-01-16T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208D/YREG59BAS"
+ },
+ {
+  "id": "YREG59N",
+  "text": "Anställda 16-64 år med arbetsplats i regionen (dagbef) efter region, yrke (3-siffrig SSYK 2012), arbetsställets sektortillhörighet och kön. Baserat på RAMS. År 2019 - 2021",
+  "uppdaterad": "2023-03-08T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208D/YREG59N"
+ },
+ {
+  "id": "YREG56",
+  "text": "Anställda 16-64 år med arbetsplats i regionen (dagbef) efter region, yrke (3-siffrig SSYK 2012), näringsgren SNI2007 (grov nivå) och kön. År 2014 - 2018",
+  "uppdaterad": "2020-03-05T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208D/YREG56"
+ },
+ {
+  "id": "YREG57",
+  "text": "Anställda 16-64 år med arbetsplats i regionen (dagbef) efter län, yrke (3-siffrig SSYK 2012), ålder och kön. År 2014 - 2018",
+  "uppdaterad": "2020-03-05T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208D/YREG57"
+ },
+ {
+  "id": "YREG58",
+  "text": "Anställda 16-64 år med arbetsplats i regionen (dagbef) efter region, yrke (3-siffrig SSYK 2012) och kön. År 2014 - 2018",
+  "uppdaterad": "2020-03-05T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208D/YREG58"
+ },
+ {
+  "id": "YREG59",
+  "text": "Anställda 16-64 år med arbetsplats i regionen (dagbef) efter region, yrke (3-siffrig SSYK 2012), arbetsställets sektortillhörighet och kön. År 2014 - 2018",
+  "uppdaterad": "2020-03-05T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208D/YREG59"
+ },
+ {
+  "id": "YREG21",
+  "text": "Anställda 16-64 år med arbetsplats i regionen (dagbef) efter region, yrke (3-siffrig SSYK 96), näringsgren SNI2002 (grov nivå) och kön. År 2001 - 2010",
+  "uppdaterad": "2012-03-07T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208D/YREG21"
+ },
+ {
+  "id": "YREG2107",
+  "text": "Anställda 16-64 år med arbetsplats i regionen (dagbef) efter region, yrke (3-siffrig SSYK 96), näringsgren SNI2007 (grov nivå) och kön. År 2008 - 2013",
+  "uppdaterad": "2015-02-12T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208D/YREG2107"
+ },
+ {
+  "id": "YREG16",
+  "text": "Anställda 16-64 år med arbetsplats i regionen (dagbef) efter län, yrke (3-siffrig SSYK 96), ålder och kön. År 2001 - 2013",
+  "uppdaterad": "2015-02-12T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208D/YREG16"
+ },
+ {
+  "id": "YREG17",
+  "text": "Anställda 16-64 år med arbetsplats i regionen (dagbef) efter region, yrke (3-siffrig SSYK 96) och kön. År 2001 - 2013",
+  "uppdaterad": "2015-02-12T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208D/YREG17"
+ },
+ {
+  "id": "YREG19",
+  "text": "Anställda 16-64 år med arbetsplats i regionen (dagbef) efter region, yrke (3-siffrig SSYK 96), arbetsställets sektortillhörighet och kön. År 2001 - 2013",
+  "uppdaterad": "2015-02-12T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208D/YREG19"
+ },
+ {
+  "id": "YREG60BAS",
+  "text": "Anställda med arbetsplats i regionen (dagbef) efter län, yrke (4-siffrig SSYK 2012) och kön. Baserat på BAS. År 2020 - 2024",
+  "uppdaterad": "2026-01-16T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208M/YREG60BAS"
+ },
+ {
+  "id": "YREG60N",
+  "text": "Anställda 16-64 år med arbetsplats i regionen (dagbef) efter län, yrke (4-siffrig SSYK 2012) och kön. Baserat på RAMS. År 2019 - 2021",
+  "uppdaterad": "2023-03-08T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208M/YREG60N"
+ },
+ {
+  "id": "YREG60",
+  "text": "Anställda 16-64 år med arbetsplats i regionen (dagbef) efter län, yrke (4-siffrig SSYK 2012) och kön. År 2014 - 2018",
+  "uppdaterad": "2020-03-05T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208M/YREG60"
+ },
+ {
+  "id": "YREG37",
+  "text": "Anställda 16-64 år med arbetsplats i regionen (dagbef) efter län, yrke (4-siffrig SSYK 96) och kön. År 2005 - 2013",
+  "uppdaterad": "2015-02-12T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208M/YREG37"
+ },
+ {
+  "id": "YREG02EGF12BAS",
+  "text": "Egna företagare i regionen (dagbef) efter region (NUTS2), yrke (3-siffrig SSYK 2012), ålder och kön. Baserat på BAS. År 2022 - 2024",
+  "uppdaterad": "2026-01-16T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208S/YREG02EGF12BAS"
+ },
+ {
+  "id": "YREG02EGF12N",
+  "text": "Egna företagare i regionen (dagbef) efter region (NUTS2), yrke (3-siffrig SSYK 2012), ålder och kön. Baserat på RAMS. År 2019 - 2021",
+  "uppdaterad": "2023-03-08T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208S/YREG02EGF12N"
+ },
+ {
+  "id": "YREG03EGF12BAS",
+  "text": "Egna företagare i riket (dagbef) efter yrke (4-siffrig SSYK 2012), födelseland och kön. Baserat på BAS. År 2022 - 2024",
+  "uppdaterad": "2026-01-16T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208S/YREG03EGF12BAS"
+ },
+ {
+  "id": "YREG03EGF12N",
+  "text": "Egna företagare i riket (dagbef) efter yrke (4-siffrig SSYK 2012), födelseland och kön. Baserat på RAMS. År 2019 - 2021",
+  "uppdaterad": "2023-03-08T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208S/YREG03EGF12N"
+ },
+ {
+  "id": "YREG01EGFN",
+  "text": "Egna företagare i riket (dagbef) fördelat efter näringsgren SNI2007 (grov nivå), kombinatör, ålder och kön. Baserat på RAMS. År 2019 - 2021",
+  "uppdaterad": "2023-03-08T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208S/YREG01EGFN"
+ },
+ {
+  "id": "YREG02EGF",
+  "text": "Egna företagare i regionen (dagbef) efter region (NUTS2), yrke (3-siffrig SSYK 96), ålder och kön. År 2010 - 2013",
+  "uppdaterad": "2015-02-12T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208S/YREG02EGF"
+ },
+ {
+  "id": "YREG03EGF",
+  "text": "Egna företagare i riket (dagbef) efter yrke (4-siffrig SSYK 96), födelseland och kön. År 2010 - 2013",
+  "uppdaterad": "2015-02-12T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208S/YREG03EGF"
+ },
+ {
+  "id": "YREG01EGF",
+  "text": "Egna företagare i riket (dagbef) fördelat efter näringsgren SNI2007 (grov nivå), kombinatör, ålder  och kön. År 2010 - 2018",
+  "uppdaterad": "2020-03-05T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208S/YREG01EGF"
+ },
+ {
+  "id": "YREG02EGF12",
+  "text": "Egna företagare i regionen (dagbef) efter region (NUTS2), yrke (3-siffrig SSYK 2012), ålder och kön. År 2014 - 2018",
+  "uppdaterad": "2020-03-05T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208S/YREG02EGF12"
+ },
+ {
+  "id": "YREG03EGF12",
+  "text": "Egna företagare i riket (dagbef) efter yrke (4-siffrig SSYK 2012), födelseland och kön. År 2014 - 2018",
+  "uppdaterad": "2020-03-05T09:30:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208S/YREG03EGF12"
+ },
+ {
+  "id": "SSYKBeskrivning",
+  "text": "SSYK, 4-siffernivå med beskrivning 2017",
+  "uppdaterad": "2024-06-14T13:21:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208Z/SSYKBeskrivning"
+ },
+ {
+  "id": "SSYKBenamning",
+  "text": "SSYK, 4-siffernivå med benämning 2017",
+  "uppdaterad": "2024-06-14T13:21:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208Z/SSYKBenamning"
+ },
+ {
+  "id": "SSYKIndex",
+  "text": "SSYK, 4-siffernivå med yrken 2017",
+  "uppdaterad": "2024-06-14T13:21:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/AM/AM0208/AM0208Z/SSYKIndex"
+ },
+ {
+  "id": "Kommunalskatter2000",
+  "text": "Kommunala skattesatser. År 2000 - 2026",
+  "uppdaterad": "2025-12-15T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/OE/OE0101/Kommunalskatter2000"
+ },
+ {
+  "id": "SkatteKraft",
+  "text": "Skatteunderlag och skattekraft. År 1995 - 2026",
+  "uppdaterad": "2025-12-15T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/OE/OE0101/SkatteKraft"
+ },
+ {
+  "id": "Kommunalskatt1930",
+  "text": "Kommunalskatteuppgifter, riket. År 1930 - 2026",
+  "uppdaterad": "2025-12-15T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/OE/OE0101/Kommunalskatt1930"
+ },
+ {
+  "id": "BegrochKyrkoavg2000",
+  "text": "Begravningsavgift samt kyrkoavgift till Svenska kyrkan. År 2000 - 2026",
+  "uppdaterad": "2025-12-15T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/OE/OE0101/BegrochKyrkoavg2000"
+ },
+ {
+  "id": "Kommunalskatt80",
+  "text": "Kommunalskatteuppgifter efter region. År 1974-1992 1974 - 1992",
+  "uppdaterad": "2003-03-12T10:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/OE/OE0101/Kommunalskatt80"
+ },
+ {
+  "id": "Kommunalskatt",
+  "text": "Kommunalskatteuppgifter efter region. År 1993-1999 1993 - 1999",
+  "uppdaterad": "1999-02-03T11:37:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/OE/OE0101/Kommunalskatt"
+ },
+ {
+  "id": "Statbidkom",
+  "text": "Bidragsinkomster för regioner och kommuner efter generella statsbidrag och inomkommunal utjämning. År 1996 - 2004",
+  "uppdaterad": "2004-09-30T10:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/OE/OE0115/OE0115A/Statbidkom"
+ },
+ {
+  "id": "KomEkUtj",
+  "text": "Kommunalekonomisk utjämning för kommuner och regioner,  År 2005 - 2026",
+  "uppdaterad": "2026-04-15T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/OE/OE0115/OE0115A/KomEkUtj"
+ },
+ {
+  "id": "KostutkomNy",
+  "text": "Kostnadsutjämning för kommuner. År 1996 - 2026",
+  "uppdaterad": "2026-04-15T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/OE/OE0115/OE0115A/KostutkomNy"
+ },
+ {
+  "id": "KostutLT",
+  "text": "Kostnadsutjämning för regioner. År 1996 - 2026",
+  "uppdaterad": "2026-04-15T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/OE/OE0115/OE0115A/KostutLT"
+ },
+ {
+  "id": "UtjLSSKom",
+  "text": "Utjämning av LSS-kostnader mellan kommuner efter kommun. År 2004 - 2026",
+  "uppdaterad": "2026-04-15T08:00:00",
+  "url": "https://api.scb.se/OV0104/v1/doris/sv/ssd/OE/OE0115/OE0115A/UtjLSSKom"
+ }
+]

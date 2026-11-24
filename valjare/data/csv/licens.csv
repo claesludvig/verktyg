@@ -1,0 +1,20 @@
+kalla,utgivare,status,villkor,url
+"SCB, Statistikdatabasen och DeSO",Statistiska centralbyrån,oppen,Öppna data; ange SCB som källa.,https://www.scb.se/vara-tjanster/oppna-data/
+Kolada,RKA,oppen,Öppna data via Koladas API; ange Kolada/RKA som källa.,https://www.kolada.se/
+Riksdagens öppna data,Sveriges riksdag,oppen,Öppna data; ange riksdagen som källa.,https://data.riksdagen.se/
+Valmyndighetens rådata,Valmyndigheten,oppen,Öppna data om val; ange Valmyndigheten som källa.,https://www.val.se/valresultat-och-statistik/statistik-och-data.html
+Eurostat,Europeiska kommissionen,oppen,Fri återanvändning med källhänvisning (kommissionens beslut 2011/833/EU).,https://ec.europa.eu/eurostat/about-us/policies/copyright
+Världsbanken (SIPRI:s militärutgifter m.m.),Världsbanken,oppen,CC BY 4.0; ange källan.,https://www.worldbank.org/en/about/legal/terms-of-use-for-datasets
+Riksbankens SWEA-API,Sveriges riksbank,oppen,Öppna data; ange Riksbanken som källa.,https://www.riksbank.se/sv/statistik/
+Polisens statistik över skjutningar och sprängningar,Polismyndigheten,oppen,Offentlig statistik i pdf; ange Polismyndigheten som källa.,https://polisen.se/om-polisen/polisens-arbete/sprangningar-och-skjutningar/
+Nationella trygghetsundersökningen,Brå,oppen,Officiell statistik; ange Brå som källa.,https://bra.se/statistik
+"Wikidata (följare, partiledare)",Wikimedia Foundation,oppen,CC0; ingen källhänvisning krävs.,https://www.wikidata.org/wiki/Wikidata:Licensing
+Wikimedias sidvisningar,Wikimedia Foundation,oppen,Statistiken är fri att återanvända (CC0).,https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews
+Mediebarometern,"Nordicom, Göteborgs universitet",citat,"Enstaka värden citeras med källhänvisning (daglig räckvidd per medium, mediedieter).",https://www.nordicom.gu.se/sv/fakta-analys/mediebarometern
+Svenska nyhetsvanor (SOM-institutet),Mediemyndigheten,citat,Enstaka värden citeras med källhänvisning.,https://mediemyndigheten.se/rapporter-och-analyser/svenska-nyhetsvanor/
+"SOM-institutet, Svenska förtroendetrender 1986–2024",Göteborgs universitet,citat,Tabeller över förtroende efter partisympati återges per år med källhänvisning. Stäm av om sidan sprids brett.,https://www.gu.se/som-institutet
+Partiernas valmanifest och valplattformar 2026,Riksdagspartierna,citat,Offentliga partiprogram; korta ordagranna citat återges med länk till partiets eget dokument.,https://www.val.se
+Partiernas politik A–Ö,Riksdagspartierna,citat,"Partiernas egna politiksidor återges i sin helhet med länk och hämtdatum, som underlag för jämförelse. Texterna är partiernas; stäm av med partierna om sidan sprids brett.",https://www.riksdagen.se/sv/sa-fungerar-riksdagen/riksdagens-partier/
+SVT:s vallokalsundersökning (Valu),SVT,avstamning,Rapporterna är upphovsrättsskyddade. Databasen återpublicerar tabeller per väljargrupp 1991–2026; begär tillstånd innan sidan sprids.,https://omoss.svt.se/
+"Valforskningsprogrammet (Svenska väljare, rapport 2026:7 m.fl.)",Göteborgs universitet,avstamning,Rapporter med källhänvisning; databasen återpublicerar tabeller över partiernas väljare. Stäm av med programmet.,https://www.gu.se/valforskningsprogrammet
+"SOM-institutet, Svenska trender",Göteborgs universitet,citat,"Enstaka värden citeras med källhänvisning (viktigaste samhällsproblem, förslag, förtroende). Stäm av om sidan sprids brett.",https://www.gu.se/som-institutet

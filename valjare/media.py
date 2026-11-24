@@ -1,0 +1,322 @@
+"""Partiernas genomslag: följare, omnämnanden, talartid och annonser.
+
+Tabeller:
+  media_foljare       daterade följarantal per parti/partiledare och plattform (Wikidata)
+  media_foljare_nu    senaste kända värde per konto och plattform
+  media_omnamnanden   omnämnanden per parti och vecka i nyhetsflödena, med andel av alla omnämnanden
+  media_google_nyheter  artiklar per parti och dag i Google Nyheters sökflöde
+  media_talartid      anföranden och ord per parti och riksmöte, även per ledamot
+  media_annonser      Googles politiska annonser: utgifter per parti och år
+  media_wikipedia     sidvisningar per månad på svenska Wikipedia, parti och partiledare
+  media_sakfragor     sakfrågor som nämns i samma artikel som partiet (nyhetsflödena)
+  media_rd_aktivitet  motioner, interpellationer och skriftliga frågor per parti och riksmöte
+  som_fortroende      förtroende för institutioner (bl.a. radio och tv, dagspressen) efter partisympati, SOM 1986–2024
+
+Följare är inte räckvidd: de säger hur många som valt att följa ett konto, inte hur många som
+ser inläggen. Omnämnanden räknas i rubrik och ingress och kan vara både positiva och negativa.
+"""
+
+import re
+from pathlib import Path
+
+import numpy as np
+import pandas as pd
+
+from media_katalog import OMNAMNANDE
+
+PARTIER = ["V", "S", "MP", "C", "L", "KD", "M", "SD"]
+
+
+AKTUELL_DAGAR = 365   # äldre följarvärden visas inte som aktuella
+
+
+def foljare(mapp: Path, idag: pd.Timestamp | None = None) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Alla daterade följarvärden (egna mätningar och Wikidata) och det senaste per konto och plattform.
+    Egna mätningar (foljare_matt.csv) går före Wikidata samma dag. Värden äldre än AKTUELL_DAGAR räknas
+    inte som aktuella och hamnar inte i "nu"."""
+    delar = []
+    f = mapp / "foljare_matt.csv"
+    if f.exists():
+        m = pd.read_csv(f)
+        if len(m):
+            delar.append(m.assign(kalla="mätt"))
+    f = mapp / "foljare.csv"
+    if f.exists():
+        try:
+            w = pd.read_csv(f)
+        except pd.errors.EmptyDataError:
+            w = pd.DataFrame()
+        if len(w):
+            w = w[w.rang.fillna("normal") != "deprecated"]
+            delar.append(w.assign(kalla="Wikidata"))
+    if not delar:
+        return pd.DataFrame(), pd.DataFrame()
+    d = pd.concat(delar, ignore_index=True).dropna(subset=["datum", "foljare"])
+    d["datum"] = pd.to_datetime(d.datum, errors="coerce", utc=True).dt.tz_localize(None).dt.normalize()
+    d = d.dropna(subset=["datum"])
+    d["prio"] = (d.kalla == "mätt").astype(int)
+    # Flera konton för samma parti och plattform (t.ex. gammalt och nytt användarnamn): det största räknas
+    d = d.sort_values(["datum", "prio", "foljare"])
+    nu = d.groupby(["parti", "roll", "plattform"]).tail(1)
+    idag = pd.Timestamp.now().normalize() if idag is None else pd.Timestamp(idag)
+    nu = nu[nu.datum >= idag - pd.Timedelta(days=AKTUELL_DAGAR)].reset_index(drop=True)
+    return d.drop(columns="prio").reset_index(drop=True), nu.drop(columns="prio")
+
+
+def _veckor(d: pd.Series) -> pd.Series:
+    return d.dt.tz_localize(None).dt.to_period("W-SUN").dt.start_time.dt.date.astype(str)
+
+
+def artiklar(mapp: Path, ledare: dict[str, str] | None = None) -> tuple[pd.DataFrame, pd.DataFrame]:
+    f = mapp / "artiklar.csv.gz"
+    if not f.exists():
+        return pd.DataFrame(), pd.DataFrame()
+    a = pd.read_csv(f, dtype=str)
+    a["tid"] = pd.to_datetime(a.publicerad, errors="coerce", utc=True, format="mixed")
+    a["tid"] = a.tid.fillna(pd.to_datetime(a.hamtad, errors="coerce", utc=True))
+    a = a.dropna(subset=["tid"])
+    # Nyhetsflödena: omnämnanden per parti (partinamn och partiledarens fullständiga namn)
+    red = a[a.sokt_parti.isna()].drop_duplicates("lank").copy()
+    text = (red.titel.fillna("") + " " + red.beskrivning.fillna(""))
+    rader = []
+    for p, rx in OMNAMNANDE.items():
+        m = text.str.contains(rx, regex=True)
+        if ledare and ledare.get(p):
+            m = m | text.str.contains(re.escape(ledare[p]), regex=True)
+        red[p] = m
+    red["vecka"] = _veckor(red.tid)
+    for (v, fl), d in red.groupby(["vecka", "flode"]):
+        for p in PARTIER:
+            rader.append({"vecka": v, "flode": fl, "parti": p, "artiklar": int(d[p].sum()), "totalt": len(d)})
+    om = pd.DataFrame(rader)
+    if len(om):
+        tot = om.groupby(["vecka", "flode"]).artiklar.transform("sum")
+        om["andel_av_omnamnanden"] = 100 * om.artiklar / tot.replace(0, np.nan)
+    # Google Nyheter: artiklar per sökt parti och dag
+    g = a[a.sokt_parti.notna()].copy()
+    gn = g.assign(dag=g.tid.dt.date.astype(str)).groupby(["dag", "sokt_parti"]).size() \
+        .rename("artiklar").reset_index().rename(columns={"sokt_parti": "parti"}) if len(g) else pd.DataFrame()
+    return om, gn
+
+
+def talartid(rd_mapp: Path, ledamoter: pd.DataFrame) -> pd.DataFrame:
+    delar = []
+    for f in sorted(rd_mapp.glob("anforande_*.csv.gz")):
+        try:
+            delar.append(pd.read_csv(f, dtype={"rm": str, "parti": str}))
+        except pd.errors.EmptyDataError:
+            continue
+    if not delar:
+        return pd.DataFrame()
+    d = pd.concat(delar, ignore_index=True)
+    d["parti"] = d.parti.replace({"FP": "L"})
+    d = d[d.parti.isin(PARTIER)]
+    g = d.groupby(["rm", "parti"]).agg(anforanden=("anforanden", "sum"), ord=("ord", "sum")).reset_index()
+    rep = d[d.replik.astype(str).str.upper().isin(["Y", "J", "JA", "TRUE", "1"])] \
+        .groupby(["rm", "parti"]).anforanden.sum().rename("repliker")
+    g = g.merge(rep, on=["rm", "parti"], how="left").fillna({"repliker": 0})
+    tot = g.groupby("rm").ord.transform("sum")
+    g["andel_av_orden"] = 100 * g.ord / tot
+    if len(ledamoter):
+        n = ledamoter[ledamoter.voteringar > 0].groupby(["rm", "parti"]).size().rename("ledamoter")
+        g = g.merge(n, on=["rm", "parti"], how="left")
+        g["ord_per_ledamot"] = g.ord / g.ledamoter
+        g["andel_av_ledamoterna"] = 100 * g.ledamoter / g.groupby("rm").ledamoter.transform("sum")
+    return g
+
+
+def annonser(mapp: Path) -> pd.DataFrame:
+    from media_katalog import ANNONSOR
+    f = mapp / "google_annonser_vecka.csv"
+    if not f.exists():
+        return pd.DataFrame()
+    try:
+        d = pd.read_csv(f, dtype=str)
+    except pd.errors.EmptyDataError:
+        return pd.DataFrame()
+    if d.empty:
+        return d
+    namn = next(c for c in d.columns if re.search(r"(?i)advertiser_name", c))
+    vecka = next((c for c in d.columns if re.search(r"(?i)week", c)), None)
+    spend = next((c for c in d.columns if re.search(r"(?i)spend.*sek", c)), None) or \
+        next((c for c in d.columns if re.search(r"(?i)spend.*eur", c)), None)
+    if not vecka or not spend:
+        return pd.DataFrame()
+    d["parti"] = None
+    for p, rx in ANNONSOR.items():
+        d.loc[d.parti.isna() & d[namn].str.contains(rx, regex=True, na=False), "parti"] = p
+    d = d.dropna(subset=["parti"])
+    d["ar"] = d[vecka].str[:4].astype(int)
+    d["utgift"] = pd.to_numeric(d[spend], errors="coerce")
+    ut = d.groupby(["ar", "parti"]).agg(utgift=("utgift", "sum"), annonsorer=(namn, "nunique")).reset_index()
+    ut["valuta"] = "SEK" if "sek" in spend.lower() else "EUR"
+    return ut
+
+
+def wikipedia(mapp: Path) -> pd.DataFrame:
+    f = mapp / "wikipedia_visningar.csv"
+    if not f.exists():
+        return pd.DataFrame()
+    d = pd.read_csv(f)
+    return d[d.parti.isin(PARTIER)].sort_values(["parti", "roll", "manad"]).reset_index(drop=True)
+
+
+def sakfragor(mapp: Path, ledare: dict[str, str] | None = None) -> pd.DataFrame:
+    """Hur ofta partiet nämns i samma artikel som en sakfråga (media_katalog.SAKORD), i nyhetsflödena
+    och Google Nyheter. Andel av partiets artiklar; en artikel kan höra till flera frågor."""
+    from media_katalog import SAKORD as ORD
+    f = mapp / "artiklar.csv.gz"
+    if not f.exists():
+        return pd.DataFrame()
+    a = pd.read_csv(f, dtype=str).drop_duplicates("lank")
+    text = a.titel.fillna("") + " " + a.beskrivning.fillna("")
+    # Partinamnen tas bort innan frågorna söks, annars träffar "Miljöpartiet" frågan miljö
+    lag = text.str.replace("|".join(f"(?:{rx})" for rx in OMNAMNANDE.values()), " ", regex=True).str.lower()
+    rader = []
+    for p, rx in OMNAMNANDE.items():
+        m = text.str.contains(rx, regex=True)
+        if ledare and ledare.get(p):
+            m = m | text.str.contains(re.escape(ledare[p]), regex=True)
+        n = int(m.sum())
+        if not n:
+            continue
+        for fr, orx in ORD.items():
+            k = int((m & lag.str.contains(orx, regex=True)).sum())
+            rader.append({"parti": p, "fraga": fr, "artiklar": k, "partiets_artiklar": n, "andel": 100 * k / n})
+    ut = pd.DataFrame(rader)
+    if len(ut):
+        tid = pd.to_datetime(a.hamtad, errors="coerce")
+        ut["fran"], ut["till"] = str(tid.min())[:10], str(tid.max())[:10]
+    return ut
+
+
+def rd_aktivitet(rd_mapp: Path, ledamoter: pd.DataFrame | None) -> pd.DataFrame:
+    f = rd_mapp / "aktivitet.csv"
+    if not f.exists():
+        return pd.DataFrame()
+    d = pd.read_csv(f, dtype={"rm": str}).pivot_table(index=["rm", "parti"], columns="typ", values="antal",
+                                                      aggfunc="sum").reset_index()
+    d.columns.name = None
+    if ledamoter is not None and len(ledamoter):
+        n = ledamoter[ledamoter.voteringar > 0].groupby(["rm", "parti"]).size().rename("ledamoter")
+        d = d.merge(n, on=["rm", "parti"], how="left")
+        typer = [c for c in ("mot", "ip", "fr") if c in d]
+        d["per_ledamot"] = d[typer].sum(axis=1) / d.ledamoter
+    return d
+
+
+PARTINAMN = {"Vänsterpartiet": "V", "Socialdemokraterna": "S", "Miljöpartiet": "MP", "Centerpartiet": "C",
+             "Liberalerna": "L", "Folkpartiet": "L", "Kristdemokraterna": "KD", "Moderaterna": "M",
+             "Sverigedemokraterna": "SD"}
+SOM_GRUPPER = {**PARTINAMN, "Samtliga": "ALLA", "Klart/något vänster": "vänster",
+               "Varken vänster eller höger": "mitten", "Klart/något höger": "höger"}
+GRUPP_KOMPAKT = {re.sub(r"\s", "", k): v for k, v in SOM_GRUPPER.items()}
+
+
+def som_fortroende(kall_dir: Path) -> pd.DataFrame:
+    """SOM-institutet, Svenska förtroendetrender 1986–2024: andel med mycket/ganska stort förtroende för varje
+    institution efter partisympati och vänster–höger, per år. Tolkas ur pdfplumbers layouttext (en rad per grupp,
+    en kolumn per år). Värden inom parentes bygger på få svar och markeras."""
+    f = kall_dir / "txt" / "som_fortroendetrender.txt"
+    if not f.exists():
+        return pd.DataFrame()
+    rader, inst, ar = [], None, []
+    for rad in f.read_text(encoding="utf-8").splitlines():
+        m = re.search(r"Tabell \d+[a-d]?\s+Andel mycket/ganska stort förtroende för (.+?), efter bakgrundsfaktorer", rad)
+        if m:
+            inst, ar = m[1].strip(), []
+            continue
+        if inst is None:
+            continue
+        if not ar:
+            a = re.findall(r"\b(19[89]\d|20[0-3]\d)\b", rad)
+            if len(a) >= 1 and re.fullmatch(r"[\s\d]+", rad):
+                ar = [int(x) for x in a]
+            continue
+        # Etiketten är texten före första talet; pdfplumber kan lägga in mellanslag i ord ("S amtliga")
+        namn = re.match(r"\s*([^\d(]+?)\s*(?=\(?\d)", rad)
+        grupp = namn and GRUPP_KOMPAKT.get(re.sub(r"\s", "", namn[1]))
+        if not grupp:
+            continue
+        varden = re.findall(r"\(?\d+\)?", rad[namn.end():])
+        if len(varden) != len(ar):   # delade tal ("5 2"): kolumnerna skiljs åt av minst två blanksteg
+            varden = [re.sub(r"\s", "", x) for x in re.split(r"\s{2,}", rad[namn.end():].strip()) if x.strip()]
+            if len(varden) != len(ar) or not all(re.fullmatch(r"\(?\d+\)?", v) for v in varden):
+                continue
+        for a, v in zip(ar, varden):
+            rader.append({"institution": inst, "grupp": grupp, "ar": a,
+                          "andel": int(v.strip("()")), "fa_svar": v.startswith("(")})
+    d = pd.DataFrame(rader)
+    return d.drop_duplicates(["institution", "grupp", "ar"]) if len(d) else d
+
+
+MB_TABELLER = {   # tabellrubrikens början -> kolumner (Nordicoms egna namn)
+    "sociala medier": ["Sociala medier totalt", "Instagram", "Facebook", "Snapchat", "TikTok", "LinkedIn", "Reddit"],
+    "rörlig bild": ["Rörlig bild totalt", "Strömmad tv", "Tablålagd tv", "YouTube"],
+}
+MB_NAMN = {"Tiktok": "TikTok", "Linkedin": "LinkedIn", "Youtube": "YouTube"}
+
+
+def mediebarometern(kall_dir: Path) -> pd.DataFrame:
+    """Nordicom, Mediebarometern 2025: daglig räckvidd per plattform efter kön och ålder (tabellerna
+    "<kategori> Daglig räckvidd, 9–85 år, 2025 (procent)") och förändringen mot året före för alla plattformar
+    (stapeldiagrammet med procentenheter, där även X och Threads finns). Kolumner: plattform, grupp, andel,
+    forandring (bara för grupp "Totalt")."""
+    f = kall_dir / "txt" / "mediebarometern_2025.txt"
+    if not f.exists():
+        return pd.DataFrame()
+    rader = f.read_text(encoding="utf-8").splitlines()
+    ut = []
+    for i, rad in enumerate(rader):
+        for kat, kol in MB_TABELLER.items():
+            if re.match(rf"\s*{kat}\s+Daglig räckvidd, 9–85 år, 2025 \(procent\)\s*$", rad, re.I):
+                for r in rader[i + 1:i + 30]:
+                    if r.strip().startswith("Mediebarometern"):
+                        break
+                    m = re.match(r"\s*(Totalt|Kvinna|Man|\d+–\d+ år)\s+([\d\s]+)$", r)
+                    if m and len(m[2].split()) == len(kol):
+                        ut += [{"plattform": k, "grupp": m[1], "andel": int(v)} for k, v in zip(kol, m[2].split())]
+            if re.match(rf"\s*{kat}\s+Daglig räckvidd, 9–85 år, 2025 \(procent samt förändring", rad, re.I):
+                for r in rader[i + 1:i + 40]:
+                    if r.strip().startswith("Mediebarometern"):
+                        break
+                    m = re.match(r"\s*([A-Za-zÅÄÖåäö ]+?)\s+(\d+)\s+([+-−±]\d+)\s*$", r)
+                    if m:
+                        ut.append({"plattform": MB_NAMN.get(m[1], m[1]), "grupp": "förändring",
+                                   "andel": int(m[3].replace("±", "").replace("−", "-"))})
+                        ut.append({"plattform": MB_NAMN.get(m[1], m[1]), "grupp": "Totalt_diagram", "andel": int(m[2])})
+    d = pd.DataFrame(ut)
+    if d.empty:
+        return d
+    d = d.drop_duplicates(["plattform", "grupp"])
+    ch = d[d.grupp == "förändring"].set_index("plattform").andel
+    tot = d[d.grupp == "Totalt_diagram"].set_index("plattform").andel
+    # Plattformar som bara finns i diagrammet (X, Threads, Annat) får sin totalsiffra därifrån
+    extra = [{"plattform": p, "grupp": "Totalt", "andel": int(v)} for p, v in tot.items()
+             if not ((d.plattform == p) & (d.grupp == "Totalt")).any()]
+    d = pd.concat([d[~d.grupp.isin(["förändring", "Totalt_diagram"])], pd.DataFrame(extra)], ignore_index=True)
+    d["forandring"] = [ch.get(p) if g == "Totalt" else None for p, g in zip(d.plattform, d.grupp)]
+    d["plattform"] = d.plattform.replace({"Sociala medier totalt": "Sociala medier (totalt)"})
+    return d
+
+
+def bygg(data_dir: Path, ledamoter: pd.DataFrame | None = None) -> dict[str, pd.DataFrame]:
+    mapp = data_dir / "media"
+    fl, nu = foljare(mapp)
+    ledare = {}
+    if len(nu):
+        ledare = nu[nu.roll == "partiledare"].drop_duplicates("parti").set_index("parti").namn.to_dict()
+    obj = mapp / "wikidata_objekt.csv"
+    if obj.exists():
+        o = pd.read_csv(obj)
+        ledare = {**o[o.roll == "partiledare"].drop_duplicates("parti").set_index("parti").namn.to_dict(), **ledare}
+    om, gn = artiklar(mapp, ledare)
+    return {"media_foljare": fl, "media_foljare_nu": nu, "media_omnamnanden": om, "media_google_nyheter": gn,
+            "media_talartid": talartid(data_dir / "riksdagen", ledamoter if ledamoter is not None else pd.DataFrame()),
+            "media_annonser": annonser(mapp),
+            "media_wikipedia": wikipedia(mapp),
+            "media_sakfragor": sakfragor(mapp, ledare),
+            "media_rd_aktivitet": rd_aktivitet(data_dir / "riksdagen", ledamoter),
+            "som_fortroende": som_fortroende(data_dir / "kallor"),
+            "mediebarometern": mediebarometern(data_dir / "kallor"),
+            "media_ledare": pd.DataFrame([{"parti": p, "namn": n} for p, n in ledare.items()])}
